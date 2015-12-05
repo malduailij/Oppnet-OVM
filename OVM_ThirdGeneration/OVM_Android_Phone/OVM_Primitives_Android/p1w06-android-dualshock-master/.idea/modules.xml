@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Blue-tooth/Blue-tooth.iml" filepath="$PROJECT_DIR$/Blue-tooth/Blue-tooth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConnectTest/ConnectTest.iml" filepath="$PROJECT_DIR$/ConnectTest/ConnectTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test Apps/Input-Outputer/Input-Outputer.iml" filepath="$PROJECT_DIR$/Test Apps/Input-Outputer/Input-Outputer.iml" />
+    </modules>
+  </component>
+</project>
+

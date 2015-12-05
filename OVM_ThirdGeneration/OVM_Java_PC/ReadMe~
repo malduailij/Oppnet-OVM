@@ -1,0 +1,54 @@
+In order to run OVM_ThirdGeneration Proof of feasibility do the following steps in order:
+======================================================================
+- You need to have the software, hardware, and communication specifications specified in the dissertation in Chapter 4, Third Generation OVM section
+
+
+Installation and Configuration Steps:
+-------------------------------------
+- Install TinyOS v.2.2 on Laptop#1 and Laptop#2
+
+- Install Contiki and Cooja on Laptop #2
+
+- Install Eclipse and Java on laptop#1 and laptop#2 (and laptop#3 to run DB_Server: optional, you can use laptop#2 to run DB_Server in parallel with Tablet2)
+
+- Install Android Studio on any laptop
+
+- Unzip OVM_ThirdGeneration
+
+- Import OVM_ThirdGeneration into Eclipse in both laptops: copy the folder into workspace then open eclipse and then file->import->existing projects into workspace
+
+- After installing TinyOS v.2.2, Copy the folder Oppnet2 which is under: OVM_ThirdGeneration/src/OVM_Primitives/OVM_Primitives_NesC
+and paste it under /opt/tinyos-2.x/apps/tests
+
+- Start Cooja: open the terminal: go the folder where cooja is and write this command: sudo ant run
+
+- Inside Cooja: click on File->Open simulation ->Open and reconfigure the Cooja_Emulation.csc. follow the reconfiguration wizard:
+ For SkyMote# 1 and SkyMote# 2 install : OVM_ThirdGeneration/src/MicroOppnet_V_5/All_Lites_Main/Lites_BaseStation_Main/main.sky
+ For the other SkyMotes (i.e 3-6) install : OVM_ThirdGeneration/src/MicroOppnet_V_5/All_Lites_Main/Lites_Mote_Zigbee_Main/main.sky
+
+- To install the android OVM do the following: OVM_ThirdGeneratio/src/MicroOppnet_V_5/Smartphone_Main, has the ConnectTest.apk file that should be installed on the android phone. However, you cannot use the apk file available since you have to change the code inside the android application to add your phone number to receive the help message (so your phone act as 911) and BT address of the laptop your phone is connecting to To do that:
+Open Android Studio: Select open and existing Android Studio Project: select the following project:
+OVM_ThirdGeneration/src/OVM_Primitives/OVM_Primitives_Android/p1w06-android-dualshock-master
+In ConnectTest.java: Chnage the server MAC adress to your Server MAC adress, which is the BT address of laptop#2
+Now under the same project: under ConnectTest/OVM_Primitives_Android/Regular_Phone_Cell: change the  String myCellphone to your cell phone #
+Now Run ConnectTest.java and then go to the project on your disk and copy ConnectTest.apk and paste it into any folder in your android phone.
+To install the android OVM do the following: OVM_ThirdGeneratio/src/MicroOppnet_V_5/Smartphone_Main, then copy the ConnectTest.apk file and  Install the ConnectTest.apk (it will ask you if you want to allow bluetooth and SMS service click ok). This will install the OVM android app on your phone.
+
+- Make sure to change the java code of other PC primitives and files under OVM_Primitives_Java and MicroOppnet_V5 that require the names, or IP addresses, BT addresses of your devices. Also make sure to change the host of the DB server to your own. 
+
+
+Running Steps:
+--------------
+Do the following steps in order:
+- Run the simulation on Cooja
+- Run DB_Server.java on laptop#2 (or laptop#3 if available)
+- Run Tablet2_Main.java on laptop#2
+- Run Tablet1_Main.java on laptop#2
+- Run Watch_Main.java on laptop#1
+- When the console of Tablet2_Main.java say: "Server Started. Waiting for clients to connect", open the OVM application on your andoid phone.
+The oppnet operations will take place between different device and also you should receive an SMS message on your phone. You should also reveice the person information file on your DB server host.
+
+
+
+
+

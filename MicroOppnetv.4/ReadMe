@@ -1,0 +1,33 @@
+1. Compile the following files in their environments (under tinyOS) by following the compilation steps of a telosb mica in the tinyOS tutorial:
+- BaseStation
+- Edited_BaseStation
+- TestSerial_Sender
+- TestSerial_Receiver
+
+2. Take the exe files under BaseStation/build/telosb and Edited_BaseStation/build/telosb and change them to other names with extension .sky instead of .exe
+
+3. To Start Cooja do the following:
+- open termenial and go to Contiki/tools/Cooja/sudo ant run
+- it might fail to open, try to install ant and run the command again
+- when it opens do the following:
+(a) file -> new simulation
+(b) motes -> add motes -> create new mote type -> sky mote (add 2 motes and insatall on them BaseStation.sky)
+(c) motes -> add motes -> create new mote type -> sky mote (add 3 motes and insatall on them Edited_BaseStation.sky)
+(d) now right click on the the first mote (with BaseStation.sky installed on it) and click on mote tools for sky1 -->serial socket (server) it will open a socket listening on port 60001
+(e) right click on the the second mote (with BaseStation.sky installed on it) and click on mote tools for sky2 -->serial socket (server) it will open a socket listening on port 60002
+
+
+4. open a new terminal (terminal1) tab and go to mai@ubuntu:/opt/tinyos-2.x/apps/tests/TestSerial_Sender$ 
+5. Open another terminal (terminal2) tab and go to mai@ubuntu:/opt/tinyos-2.x/apps/tests/TestSerial_Receiver$
+6. now start the simulation (make sure that the motes are at the correct distances)
+7. on terminal 2 run the following command: java TestSerial -comm network@localhost:60002
+8. on terminal 1 run the following command: java TestSerial -comm network@localhost:60001
+
+
+9. terminal 1 will output: sending packet 911
+
+10. terminal 2 will output: receiving packet 911  Done
+
+
+
+

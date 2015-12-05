@@ -1,0 +1,3 @@
+After connecting Board to Linux Laptop
+sudo chmod 777 /dev/ttyUSB0
+
