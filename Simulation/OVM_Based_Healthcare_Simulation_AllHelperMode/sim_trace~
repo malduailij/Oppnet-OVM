@@ -1,0 +1,1441 @@
+u: Wrist_Band at 0.0: ===========================================================
+u: Wrist_Band at 0.0: Step 1.1 Done: Wrist_Band initiated oppnet
+u: Wrist_Band at 0.0: Oppnet trans time from seed 98.02
+u: Wrist_Band at 26.93: Step 1.2 Done: Wrist_Band is done scanning for helpers in range and found the following:
+u: Wrist_Band at 26.93: None
+u: Wrist_Band at 0.0: ===========================================================
+u: Wrist_Band at 0.0: Step 1.1 Done: Wrist_Band initiated oppnet
+u: Wrist_Band at 0.0: Oppnet trans time from seed 8.11
+u: Wrist_Band at 31.5: Step 1.2 Done: Wrist_Band is done scanning for helpers in range and found the following:
+u: Wrist_Band at 31.5: Wrist_Band, 1, found ParkingMeter, ID = 6
+u: Wrist_Band at 31.5: Wrist_Band, 1, found ParkingMeter, ID = 16
+u: Wrist_Band at 31.5: Wrist_Band, 1, found Tablet2, ID = 24
+u: Wrist_Band at 31.5: Wrist_Band, 1, found StreetLight, ID = 25
+u: Wrist_Band at 31.5: Wrist_Band, 1, found TV, ID = 30
+u: Wrist_Band at 31.5: Step 1.3 Done: Wrist_Band, 1 discovered forwarding services in ParkingMeter, 6
+u: Wrist_Band at 31.5: Step 1.4 Done:ParkingMeter, 6 is not a member of oppnet
+u: Wrist_Band at 31.5: Step 1.5 Done: Wrist_Band sent a request for help to ParkingMeter, 6
+u: ParkingMeter at 39.61: Step 2.1 Done: ParkingMeter, 6 received a message from a node with id 1
+u: ParkingMeter at 71.11: msgproctime from helper 31.5
+u: ParkingMeter at 71.11: Step 2.2 Done: ParkingMeter, 6 processes the message and it is a help request from Wrist_Band, 1
+u: ParkingMeter at 71.11: From Helper Oppnet trans time = 8.11
+u: ParkingMeter at 71.11: Step 2.3 Done: ParkingMeter, 6 sent a join request to Wrist_Band, 1
+u: Wrist_Band at 79.22: Step 1.6 Done: Wrist_Band received a message from a node with id 6
+u: Wrist_Band at 110.72: Step 1.7a Done: Wrist_Band evaluated the message and source and it is a join request from ParkingMeter, 6
+u: Wrist_Band at 110.72: Step 1.7b Done: Wrist_Band sent an admission notification to ParkingMeter, 6
+u: Wrist_Band at 110.72: Step 1.8 Done: Wrist_Band adds ParkingMeter, 6 to oppnet file
+u: Wrist_Band at 110.72: Helper Integration Time = 110.72
+u: Wrist_Band at 110.72: Step 1.3 Done: Wrist_Band, 1 discovered forwarding services in ParkingMeter, 16
+u: Wrist_Band at 110.72: Step 1.4 Done:ParkingMeter, 16 is not a member of oppnet
+u: Wrist_Band at 110.72: Step 1.5 Done: Wrist_Band sent a request for help to ParkingMeter, 16
+u: ParkingMeter at 118.83: Step 2.4 Done: ParkingMeter, 6 received a message from a node with id 1
+u: ParkingMeter at 118.83: Step 2.1 Done: ParkingMeter, 16 received a message from a node with id 1
+u: ParkingMeter at 150.32999999999998: msgproctime from helper 31.5
+u: ParkingMeter at 150.32999999999998: Step 2.5 Done: ParkingMeter, 6 processes the message and it is admission notification from  Wrist_Band, 1
+u: ParkingMeter at 150.32999999999998: Step 2.2 Done: ParkingMeter, 16 processes the message and it is a help request from Wrist_Band, 1
+u: ParkingMeter at 150.32999999999998: From Helper Oppnet trans time = 8.11
+u: ParkingMeter at 150.32999999999998: Step 2.3 Done: ParkingMeter, 16 sent a join request to Wrist_Band, 1
+u: Wrist_Band at 158.44: Step 1.6 Done: Wrist_Band received a message from a node with id 16
+u: Wrist_Band at 189.94: Step 1.7a Done: Wrist_Band evaluated the message and source and it is a join request from ParkingMeter, 16
+u: Wrist_Band at 189.94: Step 1.7b Done: Wrist_Band sent an admission notification to ParkingMeter, 16
+u: Wrist_Band at 189.94: Step 1.8 Done: Wrist_Band adds ParkingMeter, 16 to oppnet file
+u: Wrist_Band at 189.94: Helper Integration Time = 189.94
+u: Wrist_Band at 189.94: Step 1.3 Done: Wrist_Band, 1 discovered forwarding services in Tablet2, 24
+u: Wrist_Band at 189.94: Step 1.4 Done:Tablet2, 24 is not a member of oppnet
+u: Wrist_Band at 189.94: Step 1.5 Done: Wrist_Band sent a request for help to Tablet2, 24
+u: ParkingMeter at 198.05: Step 2.4 Done: ParkingMeter, 16 received a message from a node with id 1
+u: Tablet2 at 198.05: Step 2.1 Done: Tablet2, 24 received a message from a node with id 1
+u: Tablet2 at 198.06: msgproctime from helper 0.01
+u: Tablet2 at 198.06: Step 2.2 Done: Tablet2, 24 processes the message and it is a help request from Wrist_Band, 1
+u: Tablet2 at 198.06: From Helper Oppnet trans time = 8.11
+u: Tablet2 at 198.06: Step 2.3 Done: Tablet2, 24 sent a join request to Wrist_Band, 1
+u: Wrist_Band at 206.17000000000002: Step 1.6 Done: Wrist_Band received a message from a node with id 24
+u: ParkingMeter at 229.55: Step 2.5 Done: ParkingMeter, 16 processes the message and it is admission notification from  Wrist_Band, 1
+u: Wrist_Band at 237.67000000000002: Step 1.7a Done: Wrist_Band evaluated the message and source and it is a join request from Tablet2, 24
+u: Wrist_Band at 237.67000000000002: Step 1.7b Done: Wrist_Band sent an admission notification to Tablet2, 24
+u: Wrist_Band at 237.67000000000002: Step 1.8 Done: Wrist_Band adds Tablet2, 24 to oppnet file
+u: Wrist_Band at 237.67000000000002: Helper Integration Time = 237.67
+u: Wrist_Band at 237.67000000000002: Step 1.3 Done: Wrist_Band, 1 discovered forwarding services in StreetLight, 25
+u: Wrist_Band at 237.67000000000002: Step 1.4 Done:StreetLight, 25 is not a member of oppnet
+u: Wrist_Band at 237.67000000000002: Step 1.5 Done: Wrist_Band sent a request for help to StreetLight, 25
+u: Tablet2 at 245.78000000000003: Step 2.4 Done: Tablet2, 24 received a message from a node with id 1
+u: StreetLight at 245.78000000000003: Step 2.1 Done: StreetLight, 25 received a message from a node with id 1
+u: Tablet2 at 245.79000000000002: Step 2.5 Done: Tablet2, 24 processes the message and it is admission notification from  Wrist_Band, 1
+u: StreetLight at 277.28000000000003: msgproctime from helper 31.5
+u: StreetLight at 277.28000000000003: Step 2.2 Done: StreetLight, 25 processes the message and it is a help request from Wrist_Band, 1
+u: StreetLight at 277.28000000000003: From Helper Oppnet trans time = 8.11
+u: StreetLight at 277.28000000000003: Step 2.3 Done: StreetLight, 25 sent a join request to Wrist_Band, 1
+u: Wrist_Band at 285.39000000000004: Step 1.6 Done: Wrist_Band received a message from a node with id 25
+u: Wrist_Band at 316.89000000000004: Step 1.7a Done: Wrist_Band evaluated the message and source and it is a join request from StreetLight, 25
+u: Wrist_Band at 316.89000000000004: Step 1.7b Done: Wrist_Band sent an admission notification to StreetLight, 25
+u: Wrist_Band at 316.89000000000004: Step 1.8 Done: Wrist_Band adds StreetLight, 25 to oppnet file
+u: Wrist_Band at 316.89000000000004: Helper Integration Time = 316.89
+u: Wrist_Band at 316.89000000000004: Step 1.3 Done: Wrist_Band, 1 discovered forwarding services in TV, 30
+u: Wrist_Band at 316.89000000000004: Step 1.4 Done:TV, 30 is not a member of oppnet
+u: Wrist_Band at 316.89000000000004: Step 1.5 Done: Wrist_Band sent a request for help to TV, 30
+u: StreetLight at 325.00000000000006: Step 2.4 Done: StreetLight, 25 received a message from a node with id 1
+u: TV at 325.00000000000006: Step 2.1 Done: TV, 30 received a message from a node with id 1
+u: TV at 325.01000000000005: msgproctime from helper 0.01
+u: TV at 325.01000000000005: Step 2.2 Done: TV, 30 processes the message and it is a help request from Wrist_Band, 1
+u: TV at 325.01000000000005: From Helper Oppnet trans time = 8.11
+u: TV at 325.01000000000005: Step 2.3 Done: TV, 30 sent a join request to Wrist_Band, 1
+u: Wrist_Band at 333.12000000000006: Step 1.6 Done: Wrist_Band received a message from a node with id 30
+u: StreetLight at 356.50000000000006: Step 2.5 Done: StreetLight, 25 processes the message and it is admission notification from  Wrist_Band, 1
+u: Wrist_Band at 364.62000000000006: Step 1.7a Done: Wrist_Band evaluated the message and source and it is a join request from TV, 30
+u: Wrist_Band at 364.62000000000006: Step 1.7b Done: Wrist_Band sent an admission notification to TV, 30
+u: Wrist_Band at 364.62000000000006: Step 1.8 Done: Wrist_Band adds TV, 30 to oppnet file
+u: Wrist_Band at 364.62000000000006: Helper Integration Time = 364.62
+u: Wrist_Band at 364.62000000000006: Step 1.9 Done: Wrist_Band, 1 sent person file to ParkingMeter, 6
+u: Wrist_Band at 364.62000000000006: Step 1.10 Done: Wrist_Band, 1 sent oppnet file to ParkingMeter, 6
+u: Wrist_Band at 364.62000000000006: Step 1.11 Done: Wrist_Band, 1 sent oppnet file to ParkingMeter, 6
+u: Wrist_Band at 364.62000000000006: Step 1.9 Done: Wrist_Band, 1 sent person file to ParkingMeter, 16
+u: Wrist_Band at 364.62000000000006: Step 1.10 Done: Wrist_Band, 1 sent oppnet file to ParkingMeter, 16
+u: Wrist_Band at 364.62000000000006: Step 1.11 Done: Wrist_Band, 1 sent oppnet file to ParkingMeter, 16
+u: Wrist_Band at 364.62000000000006: Step 1.9 Done: Wrist_Band, 1 sent person file to Tablet2, 24
+u: Wrist_Band at 364.62000000000006: Step 1.10 Done: Wrist_Band, 1 sent oppnet file to Tablet2, 24
+u: Wrist_Band at 364.62000000000006: Step 1.11 Done: Wrist_Band, 1 sent oppnet file to Tablet2, 24
+u: Wrist_Band at 364.62000000000006: Step 1.9 Done: Wrist_Band, 1 sent person file to StreetLight, 25
+u: Wrist_Band at 364.62000000000006: Step 1.10 Done: Wrist_Band, 1 sent oppnet file to StreetLight, 25
+u: Wrist_Band at 364.62000000000006: Step 1.11 Done: Wrist_Band, 1 sent oppnet file to StreetLight, 25
+u: Wrist_Band at 364.62000000000006: Step 1.9 Done: Wrist_Band, 1 sent person file to TV, 30
+u: Wrist_Band at 364.62000000000006: Step 1.10 Done: Wrist_Band, 1 sent oppnet file to TV, 30
+u: Wrist_Band at 364.62000000000006: Step 1.11 Done: Wrist_Band, 1 sent oppnet file to TV, 30
+u: ParkingMeter at 372.7300000000001: Step 2.6: ParkingMeter, 6 received a message from a node with id 1
+u: ParkingMeter at 372.7300000000001: Step 2.6: ParkingMeter, 16 received a message from a node with id 1
+u: Tablet2 at 372.7300000000001: Step 2.6: Tablet2, 24 received a message from a node with id 1
+u: StreetLight at 372.7300000000001: Step 2.6: StreetLight, 25 received a message from a node with id 1
+u: TV at 372.7300000000001: Step 2.4 Done: TV, 30 received a message from a node with id 1
+u: TV at 372.74000000000007: Step 2.5 Done: TV, 30 processes the message and it is admission notification from  Wrist_Band, 1
+u: Tablet2 at 372.74000000000007: Step 2.7: Tablet2, 24 processes the message and it is the person file from Wrist_Band,1
+u: Tablet2 at 372.74000000000007: Step 2.8a: Tablet2, 24 received a message from a node with id 1
+u: TV at 372.74000000000007: Step 2.6: TV, 30 received a message from a node with id 1
+u: Tablet2 at 372.75000000000006: Step 2.8ba: Tablet2, 24 processes the message and it is the oppnet file from Wrist_Band,1
+u: TV at 372.75000000000006: Step 2.7: TV, 30 processes the message and it is the person file from Wrist_Band,1
+u: Tablet2 at 372.75000000000006: Step 2.8c Done: Tablet2, 24 received a message from a node with id 1
+u: TV at 372.75000000000006: Step 2.8a: TV, 30 received a message from a node with id 1
+u: Tablet2 at 372.76000000000005: Step 2.9 Done: Tablet2, 24 processes the message and it is the current iteration oppnet file from Wrist_Band, 1
+u: TV at 372.76000000000005: Step 2.8ba: TV, 30 processes the message and it is the oppnet file from Wrist_Band,1
+u: TV at 372.76000000000005: Step 2.8c Done: TV, 30 received a message from a node with id 1
+u: Tablet2 at 372.76000000000005: Step 2.10: Tablet2, 24 select task Display Msg
+u: Tablet2 at 372.76000000000005: Step 2.10: Tablet2, 24 select task Upload file to DB server
+u: Tablet2 at 372.76000000000005: Step 2.10: Tablet2, 24 select task Inform 911
+u: Tablet2 at 372.76000000000005: Step 2.11: Tablet2, 24 run app Display Msg
+u: Tablet2 at 372.76000000000005: Step 2.11: Tablet2, 24 run app Upload file to DB server
+u: Tablet2 at 372.76000000000005: Step 2.11: Tablet2, 24 run app Inform 911
+u: Tablet2 at 372.76000000000005: Step 2.12: Tablet2, 24 is done with the urgent task Inform 911
+u: Tablet2 at 372.76000000000005: Step 2.13: Tablet2, 24 I will NOT forward im done
+u: TV at 372.77000000000004: Step 2.9 Done: TV, 30 processes the message and it is the current iteration oppnet file from Wrist_Band, 1
+u: TV at 372.77000000000004: Step 2.10: TV, 30 select task Display Msg
+u: TV at 372.77000000000004: Step 2.11: TV, 30 run app Display Msg
+u: TV at 372.77000000000004: Step 2.13: TV, 30 I could not do urgent task,, I will forward
+u: TV at 372.78000000000003: Step 2.13 Done: TV, 30 is done scanning for helpers in range and found the following:
+u: TV at 372.78000000000003: TV, 30, found Printer, ID = 2
+u: TV at 372.78000000000003: TV, 30, found StreetLight, ID = 8
+u: TV at 372.78000000000003: TV, 30, found Printer, ID = 9
+u: TV at 372.78000000000003: Step 2.14 Done: TV ,30 discovered forwarding services in Printer, 2
+u: TV at 372.78000000000003: Step 2.15 Done:Printer, 2 is not a member of oppnet
+u: TV at 372.78000000000003: Step 2.16 Done: TV, 30 sent a request for help to Printer, 2
+u: Printer at 380.89000000000004: Step 2.1 Done: Printer, 2 received a message from a node with id 30
+u: ParkingMeter at 404.2300000000001: Step 2.7: ParkingMeter, 6 processes the message and it is the person file from Wrist_Band,1
+u: ParkingMeter at 404.2300000000001: Step 2.7: ParkingMeter, 16 processes the message and it is the person file from Wrist_Band,1
+u: StreetLight at 404.2300000000001: Step 2.7: StreetLight, 25 processes the message and it is the person file from Wrist_Band,1
+u: ParkingMeter at 404.2300000000001: Step 2.8a: ParkingMeter, 6 received a message from a node with id 1
+u: ParkingMeter at 404.2300000000001: Step 2.8a: ParkingMeter, 16 received a message from a node with id 1
+u: StreetLight at 404.2300000000001: Step 2.8a: StreetLight, 25 received a message from a node with id 1
+u: Printer at 412.39000000000004: msgproctime from helper 31.5
+u: Printer at 412.39000000000004: Step 2.2 Done: Printer, 2 processes the message and it is a help request from TV, 30
+u: Printer at 412.39000000000004: From Helper Oppnet trans time = 8.11
+u: Printer at 412.39000000000004: Step 2.3 Done: Printer, 2 sent a join request to TV, 30
+u: TV at 420.50000000000006: Step 2.17 Done: TV, 30 received a message from a node with id 2
+u: TV at 420.51000000000005: Step 2.18a Done: TV, 30 evaluated the message and source and it is a join request from Printer, 2
+u: TV at 420.51000000000005: Step 2.18b Done: TV, 30 sent an admission notification to Printer, 2
+u: TV at 420.51000000000005: Step 2.19a Done: TV added Printer, 2 to oppnet file
+u: TV at 420.51000000000005: Helper Integration Time = 420.51
+u: TV at 420.51000000000005: Step 2.19b Done: TV added Printer, 2 to current iterationoppnet file
+u: TV at 420.51000000000005: Helper Integration Time = 420.51
+u: TV at 420.51000000000005: Step 2.20 Done: TV, 30 sent person file to Printer, 2
+u: TV at 420.51000000000005: Step 2.21 Done: TV, 30 sent oppnet file to Printer, 2
+u: TV at 420.51000000000005: Step 2.22 Done: TV, 30 sent current iteration oppnet file to Printer, 2
+u: TV at 420.51000000000005: Step 2.14 Done: TV ,30 discovered forwarding services in StreetLight, 8
+u: TV at 420.51000000000005: Step 2.15 Done:StreetLight, 8 is not a member of oppnet
+u: TV at 420.51000000000005: Step 2.16 Done: TV, 30 sent a request for help to StreetLight, 8
+u: Printer at 428.62000000000006: Step 2.4 Done: Printer, 2 received a message from a node with id 30
+u: StreetLight at 428.62000000000006: Step 2.1 Done: StreetLight, 8 received a message from a node with id 30
+u: ParkingMeter at 435.7300000000001: Step 2.8ba: ParkingMeter, 6 processes the message and it is the oppnet file from Wrist_Band,1
+u: ParkingMeter at 435.7300000000001: Step 2.8c Done: ParkingMeter, 6 received a message from a node with id 1
+u: StreetLight at 435.7300000000001: Step 2.8ba: StreetLight, 25 processes the message and it is the oppnet file from Wrist_Band,1
+u: StreetLight at 435.7300000000001: Step 2.8c Done: StreetLight, 25 received a message from a node with id 1
+u: ParkingMeter at 435.7300000000001: Step 2.8ba: ParkingMeter, 16 processes the message and it is the oppnet file from Wrist_Band,1
+u: ParkingMeter at 435.7300000000001: Step 2.8c Done: ParkingMeter, 16 received a message from a node with id 1
+u: Printer at 460.12000000000006: Step 2.5 Done: Printer, 2 processes the message and it is admission notification from  TV, 30
+u: StreetLight at 460.12000000000006: msgproctime from helper 31.5
+u: StreetLight at 460.12000000000006: Step 2.2 Done: StreetLight, 8 processes the message and it is a help request from TV, 30
+u: Printer at 460.12000000000006: Step 2.6: Printer, 2 received a message from a node with id 30
+u: StreetLight at 460.12000000000006: From Helper Oppnet trans time = 8.11
+u: StreetLight at 460.12000000000006: Step 2.3 Done: StreetLight, 8 sent a join request to TV, 30
+u: ParkingMeter at 467.2300000000001: Step 2.9 Done: ParkingMeter, 6 processes the message and it is the current iteration oppnet file from Wrist_Band, 1
+u: ParkingMeter at 467.2300000000001: Step 2.9 Done: ParkingMeter, 16 processes the message and it is the current iteration oppnet file from Wrist_Band, 1
+u: ParkingMeter at 467.2300000000001: Step 2.13: ParkingMeter, 6 I could not do urgent task,, I will forward
+u: StreetLight at 467.2300000000001: Step 2.9 Done: StreetLight, 25 processes the message and it is the current iteration oppnet file from Wrist_Band, 1
+u: StreetLight at 467.2300000000001: Step 2.13: StreetLight, 25 I could not do urgent task,, I will forward
+u: ParkingMeter at 467.2300000000001: Step 2.13: ParkingMeter, 16 I could not do urgent task,, I will forward
+u: TV at 468.2300000000001: Step 2.17 Done: TV, 30 received a message from a node with id 8
+u: TV at 468.24000000000007: Step 2.18a Done: TV, 30 evaluated the message and source and it is a join request from StreetLight, 8
+u: TV at 468.24000000000007: Step 2.18b Done: TV, 30 sent an admission notification to StreetLight, 8
+u: TV at 468.24000000000007: Step 2.19a Done: TV added StreetLight, 8 to oppnet file
+u: TV at 468.24000000000007: Helper Integration Time = 468.24
+u: TV at 468.24000000000007: Step 2.19b Done: TV added StreetLight, 8 to current iterationoppnet file
+u: TV at 468.24000000000007: Helper Integration Time = 468.24
+u: TV at 468.24000000000007: Step 2.20 Done: TV, 30 sent person file to StreetLight, 8
+u: TV at 468.24000000000007: Step 2.21 Done: TV, 30 sent oppnet file to StreetLight, 8
+u: TV at 468.24000000000007: Step 2.22 Done: TV, 30 sent current iteration oppnet file to StreetLight, 8
+u: TV at 468.24000000000007: Step 2.14 Done: TV ,30 discovered forwarding services in Printer, 9
+u: TV at 468.24000000000007: Step 2.15 Done:Printer, 9 is not a member of oppnet
+u: TV at 468.24000000000007: Step 2.16 Done: TV, 30 sent a request for help to Printer, 9
+u: StreetLight at 476.3500000000001: Step 2.4 Done: StreetLight, 8 received a message from a node with id 30
+u: Printer at 476.3500000000001: Step 2.1 Done: Printer, 9 received a message from a node with id 30
+u: Printer at 491.62000000000006: Step 2.7: Printer, 2 processes the message and it is the person file from TV,30
+u: Printer at 491.62000000000006: Step 2.8a: Printer, 2 received a message from a node with id 30
+u: ParkingMeter at 498.7300000000001: Step 2.13 Done: ParkingMeter, 6 is done scanning for helpers in range and found the following:
+u: ParkingMeter at 498.7300000000001: ParkingMeter, 6, found Printer, ID = 9
+u: ParkingMeter at 498.7300000000001: Step 2.13 Done: ParkingMeter, 16 is done scanning for helpers in range and found the following:
+u: ParkingMeter at 498.7300000000001: Step 2.14 Done: ParkingMeter ,6 discovered forwarding services in Printer, 9
+u: StreetLight at 498.7300000000001: Step 2.13 Done: StreetLight, 25 is done scanning for helpers in range and found the following:
+u: StreetLight at 498.7300000000001: None
+u: ParkingMeter at 498.7300000000001: ParkingMeter, 16, found Printer, ID = 9
+u: ParkingMeter at 498.7300000000001: Step 2.15 Done:Printer, 9 is not a member of oppnet
+u: ParkingMeter at 498.7300000000001: Step 2.14 Done: ParkingMeter ,16 discovered forwarding services in Printer, 9
+u: ParkingMeter at 498.7300000000001: Step 2.16 Done: ParkingMeter, 6 sent a request for help to Printer, 9
+u: ParkingMeter at 498.7300000000001: Step 2.15 Done:Printer, 9 is not a member of oppnet
+u: ParkingMeter at 498.7300000000001: Step 2.16 Done: ParkingMeter, 16 sent a request for help to Printer, 9
+u: StreetLight at 507.8500000000001: Step 2.5 Done: StreetLight, 8 processes the message and it is admission notification from  TV, 30
+u: Printer at 507.8500000000001: msgproctime from helper 31.5
+u: Printer at 507.8500000000001: Step 2.2 Done: Printer, 9 processes the message and it is a help request from TV, 30
+u: StreetLight at 507.8500000000001: Step 2.6: StreetLight, 8 received a message from a node with id 30
+u: Printer at 507.8500000000001: From Helper Oppnet trans time = 8.11
+u: Printer at 507.8500000000001: Step 2.3 Done: Printer, 9 sent a join request to TV, 30
+u: Printer at 507.8500000000001: Step 2.4 Done: Printer, 9 received a message from a node with id 6
+u: TV at 515.96: Step 2.17 Done: TV, 30 received a message from a node with id 9
+u: TV at 515.97: Step 2.18a Done: TV, 30 evaluated the message and source and it is a join request from Printer, 9
+u: TV at 515.97: Step 2.18b Done: TV, 30 sent an admission notification to Printer, 9
+u: TV at 515.97: Step 2.19a Done: TV added Printer, 9 to oppnet file
+u: TV at 515.97: Helper Integration Time = 515.97
+u: TV at 515.97: Step 2.19b Done: TV added Printer, 9 to current iterationoppnet file
+u: TV at 515.97: Helper Integration Time = 515.97
+u: TV at 515.97: Step 2.20 Done: TV, 30 sent person file to Printer, 9
+u: TV at 515.97: Step 2.21 Done: TV, 30 sent oppnet file to Printer, 9
+u: TV at 515.97: Step 2.22 Done: TV, 30 sent current iteration oppnet file to Printer, 9
+u: Printer at 523.1200000000001: Step 2.8ba: Printer, 2 processes the message and it is the oppnet file from TV,30
+u: Printer at 523.1200000000001: Step 2.8c Done: Printer, 2 received a message from a node with id 30
+u: StreetLight at 539.3500000000001: Step 2.7: StreetLight, 8 processes the message and it is the person file from TV,30
+u: StreetLight at 539.3500000000001: Step 2.8a: StreetLight, 8 received a message from a node with id 30
+u: Printer at 554.6200000000001: Step 2.9 Done: Printer, 2 processes the message and it is the current iteration oppnet file from TV, 30
+u: Printer at 554.6200000000001: Step 2.10: Printer, 2 select task Display Msg
+u: Printer at 554.6200000000001: Step 2.11: Printer, 2 run app Display Msg
+u: Printer at 554.6200000000001: Step 2.13: Printer, 2 I could not do urgent task,, I will forward
+u: StreetLight at 570.8500000000001: Step 2.8ba: StreetLight, 8 processes the message and it is the oppnet file from TV,30
+u: StreetLight at 570.8500000000001: Step 2.8c Done: StreetLight, 8 received a message from a node with id 30
+u: Printer at 586.1200000000001: Step 2.13 Done: Printer, 2 is done scanning for helpers in range and found the following:
+u: Printer at 586.1200000000001: None
+u: StreetLight at 602.3500000000001: Step 2.9 Done: StreetLight, 8 processes the message and it is the current iteration oppnet file from TV, 30
+u: StreetLight at 602.3500000000001: Step 2.13: StreetLight, 8 I could not do urgent task,, I will forward
+u: StreetLight at 633.8500000000001: Step 2.13 Done: StreetLight, 8 is done scanning for helpers in range and found the following:
+u: StreetLight at 633.8500000000001: StreetLight, 8, found Tablet1, ID = 12
+u: StreetLight at 633.8500000000001: StreetLight, 8, found Printer, ID = 17
+u: StreetLight at 633.8500000000001: StreetLight, 8, found StreetLight, ID = 22
+u: StreetLight at 633.8500000000001: StreetLight, 8, found TV, ID = 34
+u: StreetLight at 633.8500000000001: Step 2.14 Done: StreetLight ,8 discovered forwarding services in Tablet1, 12
+u: StreetLight at 633.8500000000001: Step 2.15 Done:Tablet1, 12 is not a member of oppnet
+u: StreetLight at 633.8500000000001: Step 2.16 Done: StreetLight, 8 sent a request for help to Tablet1, 12
+u: Tablet1 at 641.9600000000002: Step 2.1 Done: Tablet1, 12 received a message from a node with id 8
+u: Tablet1 at 641.9700000000001: msgproctime from helper 0.01
+u: Tablet1 at 641.9700000000001: Step 2.2 Done: Tablet1, 12 processes the message and it is a help request from StreetLight, 8
+u: Tablet1 at 641.9700000000001: From Helper Oppnet trans time = 8.11
+u: Tablet1 at 641.9700000000001: Step 2.3 Done: Tablet1, 12 sent a join request to StreetLight, 8
+u: StreetLight at 650.0800000000002: Step 2.17 Done: StreetLight, 8 received a message from a node with id 12
+u: StreetLight at 681.5800000000002: Step 2.18a Done: StreetLight, 8 evaluated the message and source and it is a join request from Tablet1, 12
+u: StreetLight at 681.5800000000002: Step 2.18b Done: StreetLight, 8 sent an admission notification to Tablet1, 12
+u: StreetLight at 681.5800000000002: Step 2.19a Done: StreetLight added Tablet1, 12 to oppnet file
+u: StreetLight at 681.5800000000002: Helper Integration Time = 681.58
+u: StreetLight at 681.5800000000002: Step 2.19b Done: StreetLight added Tablet1, 12 to current iterationoppnet file
+u: StreetLight at 681.5800000000002: Helper Integration Time = 681.58
+u: StreetLight at 681.5800000000002: Step 2.20 Done: StreetLight, 8 sent person file to Tablet1, 12
+u: StreetLight at 681.5800000000002: Step 2.21 Done: StreetLight, 8 sent oppnet file to Tablet1, 12
+u: StreetLight at 681.5800000000002: Step 2.22 Done: StreetLight, 8 sent current iteration oppnet file to Tablet1, 12
+u: StreetLight at 681.5800000000002: Step 2.14 Done: StreetLight ,8 discovered forwarding services in Printer, 17
+u: StreetLight at 681.5800000000002: Step 2.15 Done:Printer, 17 is not a member of oppnet
+u: StreetLight at 681.5800000000002: Step 2.16 Done: StreetLight, 8 sent a request for help to Printer, 17
+u: Tablet1 at 689.6900000000002: Step 2.4 Done: Tablet1, 12 received a message from a node with id 8
+u: Printer at 689.6900000000002: Step 2.1 Done: Printer, 17 received a message from a node with id 8
+u: Tablet1 at 689.7000000000002: Step 2.5 Done: Tablet1, 12 processes the message and it is admission notification from  StreetLight, 8
+u: Tablet1 at 689.7000000000002: Step 2.6: Tablet1, 12 received a message from a node with id 8
+u: Tablet1 at 689.7100000000002: Step 2.7: Tablet1, 12 processes the message and it is the person file from StreetLight,8
+u: Tablet1 at 689.7100000000002: Step 2.8a: Tablet1, 12 received a message from a node with id 8
+u: Tablet1 at 689.7200000000001: Step 2.8ba: Tablet1, 12 processes the message and it is the oppnet file from StreetLight,8
+u: Tablet1 at 689.7200000000001: Step 2.8c Done: Tablet1, 12 received a message from a node with id 8
+u: Tablet1 at 689.7300000000001: Step 2.9 Done: Tablet1, 12 processes the message and it is the current iteration oppnet file from StreetLight, 8
+u: Tablet1 at 689.7300000000001: Step 2.10: Tablet1, 12 select task Display Msg
+u: Tablet1 at 689.7300000000001: Step 2.10: Tablet1, 12 select task Upload file to DB server
+u: Tablet1 at 689.7300000000001: Step 2.11: Tablet1, 12 run app Display Msg
+u: Tablet1 at 689.7300000000001: Step 2.11: Tablet1, 12 run app Upload file to DB server
+u: Tablet1 at 689.7300000000001: Step 2.13: Tablet1, 12 I could not do urgent task,, I will forward
+u: Tablet1 at 689.7400000000001: Step 2.13 Done: Tablet1, 12 is done scanning for helpers in range and found the following:
+u: Tablet1 at 689.7400000000001: Tablet1, 12, found StreetLight, ID = 22
+u: Tablet1 at 689.7400000000001: Tablet1, 12, found TV, ID = 27
+u: Tablet1 at 689.7400000000001: Tablet1, 12, found TV, ID = 34
+u: Tablet1 at 689.7400000000001: Step 2.14 Done: Tablet1 ,12 discovered forwarding services in StreetLight, 22
+u: Tablet1 at 689.7400000000001: Step 2.15 Done:StreetLight, 22 is not a member of oppnet
+u: Tablet1 at 689.7400000000001: Step 2.16 Done: Tablet1, 12 sent a request for help to StreetLight, 22
+u: StreetLight at 697.8500000000001: Step 2.1 Done: StreetLight, 22 received a message from a node with id 12
+u: Printer at 721.1900000000002: msgproctime from helper 31.5
+u: Printer at 721.1900000000002: Step 2.2 Done: Printer, 17 processes the message and it is a help request from StreetLight, 8
+u: Printer at 721.1900000000002: From Helper Oppnet trans time = 8.11
+u: Printer at 721.1900000000002: Step 2.3 Done: Printer, 17 sent a join request to StreetLight, 8
+u: StreetLight at 729.3000000000002: Step 2.17 Done: StreetLight, 8 received a message from a node with id 17
+u: StreetLight at 729.3500000000001: msgproctime from helper 31.5
+u: StreetLight at 729.3500000000001: Step 2.2 Done: StreetLight, 22 processes the message and it is a help request from Tablet1, 12
+u: StreetLight at 729.3500000000001: From Helper Oppnet trans time = 8.11
+u: StreetLight at 729.3500000000001: Step 2.3 Done: StreetLight, 22 sent a join request to Tablet1, 12
+u: Tablet1 at 737.4600000000002: Step 2.17 Done: Tablet1, 12 received a message from a node with id 22
+u: Tablet1 at 737.4700000000001: Step 2.18a Done: Tablet1, 12 evaluated the message and source and it is a join request from StreetLight, 22
+u: Tablet1 at 737.4700000000001: Step 2.18b Done: Tablet1, 12 sent an admission notification to StreetLight, 22
+u: Tablet1 at 737.4700000000001: Step 2.19a Done: Tablet1 added StreetLight, 22 to oppnet file
+u: Tablet1 at 737.4700000000001: Helper Integration Time = 737.47
+u: Tablet1 at 737.4700000000001: Step 2.19b Done: Tablet1 added StreetLight, 22 to current iterationoppnet file
+u: Tablet1 at 737.4700000000001: Helper Integration Time = 737.47
+u: Tablet1 at 737.4700000000001: Step 2.20 Done: Tablet1, 12 sent person file to StreetLight, 22
+u: Tablet1 at 737.4700000000001: Step 2.21 Done: Tablet1, 12 sent oppnet file to StreetLight, 22
+u: Tablet1 at 737.4700000000001: Step 2.22 Done: Tablet1, 12 sent current iteration oppnet file to StreetLight, 22
+u: Tablet1 at 737.4700000000001: Step 2.14 Done: Tablet1 ,12 discovered forwarding services in TV, 27
+u: Tablet1 at 737.4700000000001: Step 2.15 Done:TV, 27 is not a member of oppnet
+u: Tablet1 at 737.4700000000001: Step 2.16 Done: Tablet1, 12 sent a request for help to TV, 27
+u: TV at 745.5800000000002: Step 2.1 Done: TV, 27 received a message from a node with id 12
+u: StreetLight at 745.5800000000002: Step 2.4 Done: StreetLight, 22 received a message from a node with id 12
+u: TV at 745.5900000000001: msgproctime from helper 0.01
+u: TV at 745.5900000000001: Step 2.2 Done: TV, 27 processes the message and it is a help request from Tablet1, 12
+u: TV at 745.5900000000001: From Helper Oppnet trans time = 8.11
+u: TV at 745.5900000000001: Step 2.3 Done: TV, 27 sent a join request to Tablet1, 12
+u: Tablet1 at 753.7000000000002: Step 2.17 Done: Tablet1, 12 received a message from a node with id 27
+u: Tablet1 at 753.7100000000002: Step 2.18a Done: Tablet1, 12 evaluated the message and source and it is a join request from TV, 27
+u: Tablet1 at 753.7100000000002: Step 2.18b Done: Tablet1, 12 sent an admission notification to TV, 27
+u: Tablet1 at 753.7100000000002: Step 2.19a Done: Tablet1 added TV, 27 to oppnet file
+u: Tablet1 at 753.7100000000002: Helper Integration Time = 753.71
+u: Tablet1 at 753.7100000000002: Step 2.19b Done: Tablet1 added TV, 27 to current iterationoppnet file
+u: Tablet1 at 753.7100000000002: Helper Integration Time = 753.71
+u: Tablet1 at 753.7100000000002: Step 2.20 Done: Tablet1, 12 sent person file to TV, 27
+u: Tablet1 at 753.7100000000002: Step 2.21 Done: Tablet1, 12 sent oppnet file to TV, 27
+u: Tablet1 at 753.7100000000002: Step 2.22 Done: Tablet1, 12 sent current iteration oppnet file to TV, 27
+u: Tablet1 at 753.7100000000002: Step 2.14 Done: Tablet1 ,12 discovered forwarding services in TV, 34
+u: Tablet1 at 753.7100000000002: Step 2.15 Done:TV, 34 is not a member of oppnet
+u: Tablet1 at 753.7100000000002: Step 2.16 Done: Tablet1, 12 sent a request for help to TV, 34
+u: StreetLight at 760.8000000000002: Step 2.18a Done: StreetLight, 8 evaluated the message and source and it is a join request from Printer, 17
+u: StreetLight at 760.8000000000002: Step 2.18b Done: StreetLight, 8 sent an admission notification to Printer, 17
+u: StreetLight at 760.8000000000002: Step 2.19a Done: StreetLight added Printer, 17 to oppnet file
+u: StreetLight at 760.8000000000002: Helper Integration Time = 760.8
+u: StreetLight at 760.8000000000002: Step 2.19b Done: StreetLight added Printer, 17 to current iterationoppnet file
+u: StreetLight at 760.8000000000002: Helper Integration Time = 760.8
+u: StreetLight at 760.8000000000002: Step 2.20 Done: StreetLight, 8 sent person file to Printer, 17
+u: StreetLight at 760.8000000000002: Step 2.21 Done: StreetLight, 8 sent oppnet file to Printer, 17
+u: StreetLight at 760.8000000000002: Step 2.22 Done: StreetLight, 8 sent current iteration oppnet file to Printer, 17
+u: StreetLight at 760.8000000000002: Step 2.14 Done: StreetLight ,8 discovered forwarding services in StreetLight, 22
+u: StreetLight at 760.8000000000002: Step 2.15 Done:StreetLight, 22 is not a member of oppnet
+u: StreetLight at 760.8000000000002: Step 2.16 Done: StreetLight, 8 sent a request for help to StreetLight, 22
+u: TV at 761.8200000000002: Step 2.4 Done: TV, 27 received a message from a node with id 12
+u: TV at 761.8200000000002: Step 2.1 Done: TV, 34 received a message from a node with id 12
+u: TV at 761.8300000000002: msgproctime from helper 0.01
+u: TV at 761.8300000000002: Step 2.5 Done: TV, 27 processes the message and it is admission notification from  Tablet1, 12
+u: TV at 761.8300000000002: Step 2.6: TV, 27 received a message from a node with id 12
+u: TV at 761.8300000000002: Step 2.2 Done: TV, 34 processes the message and it is a help request from Tablet1, 12
+u: TV at 761.8300000000002: From Helper Oppnet trans time = 8.11
+u: TV at 761.8300000000002: Step 2.3 Done: TV, 34 sent a join request to Tablet1, 12
+u: TV at 761.8400000000001: Step 2.7: TV, 27 processes the message and it is the person file from Tablet1,12
+u: TV at 761.8400000000001: Step 2.8a: TV, 27 received a message from a node with id 12
+u: TV at 761.8500000000001: Step 2.8ba: TV, 27 processes the message and it is the oppnet file from Tablet1,12
+u: TV at 761.8500000000001: Step 2.8c Done: TV, 27 received a message from a node with id 12
+u: TV at 761.8600000000001: Step 2.9 Done: TV, 27 processes the message and it is the current iteration oppnet file from Tablet1, 12
+u: TV at 761.8600000000001: Step 2.10: TV, 27 select task Display Msg
+u: TV at 761.8600000000001: Step 2.11: TV, 27 run app Display Msg
+u: TV at 761.8600000000001: Step 2.13: TV, 27 I could not do urgent task,, I will forward
+u: TV at 761.8700000000001: Step 2.13 Done: TV, 27 is done scanning for helpers in range and found the following:
+u: TV at 761.8700000000001: TV, 27, found TV, ID = 4
+u: TV at 761.8700000000001: Step 2.14 Done: TV ,27 discovered forwarding services in TV, 4
+u: TV at 761.8700000000001: Step 2.15 Done:TV, 4 is not a member of oppnet
+u: TV at 761.8700000000001: Step 2.16 Done: TV, 27 sent a request for help to TV, 4
+u: Printer at 768.9100000000002: Step 2.4 Done: Printer, 17 received a message from a node with id 8
+u: Tablet1 at 769.9400000000002: Step 2.17 Done: Tablet1, 12 received a message from a node with id 34
+u: Tablet1 at 769.9500000000002: Step 2.18a Done: Tablet1, 12 evaluated the message and source and it is a join request from TV, 34
+u: Tablet1 at 769.9500000000002: Step 2.18b Done: Tablet1, 12 sent an admission notification to TV, 34
+u: Tablet1 at 769.9500000000002: Step 2.19a Done: Tablet1 added TV, 34 to oppnet file
+u: Tablet1 at 769.9500000000002: Helper Integration Time = 769.95
+u: Tablet1 at 769.9500000000002: Step 2.19b Done: Tablet1 added TV, 34 to current iterationoppnet file
+u: Tablet1 at 769.9500000000002: Helper Integration Time = 769.95
+u: Tablet1 at 769.9500000000002: Step 2.20 Done: Tablet1, 12 sent person file to TV, 34
+u: Tablet1 at 769.9500000000002: Step 2.21 Done: Tablet1, 12 sent oppnet file to TV, 34
+u: Tablet1 at 769.9500000000002: Step 2.22 Done: Tablet1, 12 sent current iteration oppnet file to TV, 34
+u: TV at 769.9800000000001: Step 2.1 Done: TV, 4 received a message from a node with id 27
+u: TV at 769.9900000000001: msgproctime from helper 0.01
+u: TV at 769.9900000000001: Step 2.2 Done: TV, 4 processes the message and it is a help request from TV, 27
+u: TV at 769.9900000000001: From Helper Oppnet trans time = 8.11
+u: TV at 769.9900000000001: Step 2.3 Done: TV, 4 sent a join request to TV, 27
+u: StreetLight at 777.0800000000002: Step 2.5 Done: StreetLight, 22 processes the message and it is admission notification from  Tablet1, 12
+u: StreetLight at 777.0800000000002: Step 2.6: StreetLight, 22 received a message from a node with id 12
+u: TV at 778.0600000000002: Step 2.4 Done: TV, 34 received a message from a node with id 12
+u: TV at 778.0700000000002: Step 2.5 Done: TV, 34 processes the message and it is admission notification from  Tablet1, 12
+u: TV at 778.0700000000002: Step 2.6: TV, 34 received a message from a node with id 12
+u: TV at 778.0800000000002: Step 2.7: TV, 34 processes the message and it is the person file from Tablet1,12
+u: TV at 778.0800000000002: Step 2.8a: TV, 34 received a message from a node with id 12
+u: TV at 778.0900000000001: Step 2.8ba: TV, 34 processes the message and it is the oppnet file from Tablet1,12
+u: TV at 778.0900000000001: Step 2.8c Done: TV, 34 received a message from a node with id 12
+u: TV at 778.1000000000001: Step 2.9 Done: TV, 34 processes the message and it is the current iteration oppnet file from Tablet1, 12
+u: TV at 778.1000000000001: Step 2.17 Done: TV, 27 received a message from a node with id 4
+u: TV at 778.1000000000001: Step 2.10: TV, 34 select task Display Msg
+u: TV at 778.1000000000001: Step 2.11: TV, 34 run app Display Msg
+u: TV at 778.1000000000001: Step 2.13: TV, 34 I could not do urgent task,, I will forward
+u: TV at 778.1100000000001: Step 2.13 Done: TV, 34 is done scanning for helpers in range and found the following:
+u: TV at 778.1100000000001: None
+u: TV at 778.1100000000001: Step 2.18a Done: TV, 27 evaluated the message and source and it is a join request from TV, 4
+u: TV at 778.1100000000001: Step 2.18b Done: TV, 27 sent an admission notification to TV, 4
+u: TV at 778.1100000000001: Step 2.19a Done: TV added TV, 4 to oppnet file
+u: TV at 778.1100000000001: Helper Integration Time = 778.11
+u: TV at 778.1100000000001: Step 2.19b Done: TV added TV, 4 to current iterationoppnet file
+u: TV at 778.1100000000001: Helper Integration Time = 778.11
+u: TV at 778.1100000000001: Step 2.20 Done: TV, 27 sent person file to TV, 4
+u: TV at 778.1100000000001: Step 2.21 Done: TV, 27 sent oppnet file to TV, 4
+u: TV at 778.1100000000001: Step 2.22 Done: TV, 27 sent current iteration oppnet file to TV, 4
+u: TV at 786.2200000000001: Step 2.4 Done: TV, 4 received a message from a node with id 27
+u: TV at 786.2300000000001: Step 2.5 Done: TV, 4 processes the message and it is admission notification from  TV, 27
+u: TV at 786.2300000000001: Step 2.6: TV, 4 received a message from a node with id 27
+u: TV at 786.2400000000001: Step 2.7: TV, 4 processes the message and it is the person file from TV,27
+u: TV at 786.2400000000001: Step 2.8a: TV, 4 received a message from a node with id 27
+u: TV at 786.2500000000001: Step 2.8ba: TV, 4 processes the message and it is the oppnet file from TV,27
+u: TV at 786.2500000000001: Step 2.8c Done: TV, 4 received a message from a node with id 27
+u: TV at 786.2600000000001: Step 2.9 Done: TV, 4 processes the message and it is the current iteration oppnet file from TV, 27
+u: TV at 786.2600000000001: Step 2.10: TV, 4 select task Display Msg
+u: TV at 786.2600000000001: Step 2.11: TV, 4 run app Display Msg
+u: TV at 786.2600000000001: Step 2.13: TV, 4 I could not do urgent task,, I will forward
+u: TV at 786.2700000000001: Step 2.13 Done: TV, 4 is done scanning for helpers in range and found the following:
+u: TV at 786.2700000000001: None
+u: Printer at 800.4100000000002: Step 2.5 Done: Printer, 17 processes the message and it is admission notification from  StreetLight, 8
+u: Printer at 800.4100000000002: Step 2.6: Printer, 17 received a message from a node with id 8
+u: StreetLight at 808.5800000000002: Step 2.7: StreetLight, 22 processes the message and it is the person file from Tablet1,12
+u: StreetLight at 808.5800000000002: Step 2.8a: StreetLight, 22 received a message from a node with id 12
+u: Printer at 831.9100000000002: Step 2.7: Printer, 17 processes the message and it is the person file from StreetLight,8
+u: Printer at 831.9100000000002: Step 2.8a: Printer, 17 received a message from a node with id 8
+u: StreetLight at 840.0800000000002: Step 2.8ba: StreetLight, 22 processes the message and it is the oppnet file from Tablet1,12
+u: StreetLight at 840.0800000000002: Step 2.8c Done: StreetLight, 22 received a message from a node with id 12
+u: Printer at 863.4100000000002: Step 2.8ba: Printer, 17 processes the message and it is the oppnet file from StreetLight,8
+u: Printer at 863.4100000000002: Step 2.8c Done: Printer, 17 received a message from a node with id 8
+u: StreetLight at 871.5800000000002: Step 2.9 Done: StreetLight, 22 processes the message and it is the current iteration oppnet file from Tablet1, 12
+u: StreetLight at 871.5800000000002: Step 2.13: StreetLight, 22 I could not do urgent task,, I will forward
+u: Printer at 894.9100000000002: Step 2.9 Done: Printer, 17 processes the message and it is the current iteration oppnet file from StreetLight, 8
+u: Printer at 894.9100000000002: Step 2.10: Printer, 17 select task Display Msg
+u: Printer at 894.9100000000002: Step 2.11: Printer, 17 run app Display Msg
+u: Printer at 894.9100000000002: Step 2.13: Printer, 17 I could not do urgent task,, I will forward
+u: StreetLight at 903.0800000000002: Step 2.13 Done: StreetLight, 22 is done scanning for helpers in range and found the following:
+u: StreetLight at 903.0800000000002: None
+u: Printer at 926.4100000000002: Step 2.13 Done: Printer, 17 is done scanning for helpers in range and found the following:
+u: Printer at 926.4100000000002: None
+u: StreetLight at 926.4100000000002: Step 2.14 Done: StreetLight ,8 discovered forwarding services in TV, 34
+u: StreetLight at 926.4100000000002: Step 2.15 Done:TV, 34 is not a member of oppnet
+u: StreetLight at 926.4100000000002: Step 2.16 Done: StreetLight, 8 sent a request for help to TV, 34
+u: Wrist_Band at 0.0: ===========================================================
+u: Wrist_Band at 0.0: Step 1.1 Done: Wrist_Band initiated oppnet
+u: Wrist_Band at 0.0: Oppnet trans time from seed 98.69
+u: Wrist_Band at 39.14: Step 1.2 Done: Wrist_Band is done scanning for helpers in range and found the following:
+u: Wrist_Band at 39.14: Wrist_Band, 1, found ParkingMeter, ID = 4
+u: Wrist_Band at 39.14: Wrist_Band, 1, found Printer, ID = 22
+u: Wrist_Band at 39.14: Wrist_Band, 1, found Tablet2, ID = 24
+u: Wrist_Band at 39.14: Wrist_Band, 1, found StreetLight, ID = 26
+u: Wrist_Band at 39.14: Wrist_Band, 1, found Printer, ID = 33
+u: Wrist_Band at 39.14: Step 1.3 Done: Wrist_Band, 1 discovered forwarding services in ParkingMeter, 4
+u: Wrist_Band at 39.14: Step 1.4 Done:ParkingMeter, 4 is not a member of oppnet
+u: Wrist_Band at 39.14: Step 1.5 Done: Wrist_Band sent a request for help to ParkingMeter, 4
+u: ParkingMeter at 137.82999999999998: Step 2.1 Done: ParkingMeter, 4 received a message from a node with id 1
+u: ParkingMeter at 176.96999999999997: msgproctime from helper 39.14
+u: ParkingMeter at 176.96999999999997: Step 2.2 Done: ParkingMeter, 4 processes the message and it is a help request from Wrist_Band, 1
+u: ParkingMeter at 176.96999999999997: From Helper Oppnet trans time = 98.69
+u: ParkingMeter at 176.96999999999997: Step 2.3 Done: ParkingMeter, 4 sent a join request to Wrist_Band, 1
+u: Wrist_Band at 275.65999999999997: Step 1.6 Done: Wrist_Band received a message from a node with id 4
+u: Wrist_Band at 314.79999999999995: Step 1.7a Done: Wrist_Band evaluated the message and source and it is a join request from ParkingMeter, 4
+u: Wrist_Band at 314.79999999999995: Step 1.7b Done: Wrist_Band sent an admission notification to ParkingMeter, 4
+u: Wrist_Band at 314.79999999999995: Step 1.8 Done: Wrist_Band adds ParkingMeter, 4 to oppnet file
+u: Wrist_Band at 314.79999999999995: Helper Integration Time = 314.79
+u: Wrist_Band at 314.79999999999995: Step 1.3 Done: Wrist_Band, 1 discovered forwarding services in Printer, 22
+u: Wrist_Band at 314.79999999999995: Step 1.4 Done:Printer, 22 is not a member of oppnet
+u: Wrist_Band at 314.79999999999995: Step 1.5 Done: Wrist_Band sent a request for help to Printer, 22
+u: ParkingMeter at 413.48999999999995: Step 2.4 Done: ParkingMeter, 4 received a message from a node with id 1
+u: Printer at 413.48999999999995: Step 2.1 Done: Printer, 22 received a message from a node with id 1
+u: ParkingMeter at 452.62999999999994: Step 2.5 Done: ParkingMeter, 4 processes the message and it is admission notification from  Wrist_Band, 1
+u: Printer at 452.62999999999994: msgproctime from helper 39.14
+u: Printer at 452.62999999999994: Step 2.2 Done: Printer, 22 processes the message and it is a help request from Wrist_Band, 1
+u: Printer at 452.62999999999994: From Helper Oppnet trans time = 98.69
+u: Printer at 452.62999999999994: Step 2.3 Done: Printer, 22 sent a join request to Wrist_Band, 1
+u: Wrist_Band at 551.3199999999999: Step 1.6 Done: Wrist_Band received a message from a node with id 22
+u: Wrist_Band at 590.4599999999999: Step 1.7a Done: Wrist_Band evaluated the message and source and it is a join request from Printer, 22
+u: Wrist_Band at 590.4599999999999: Step 1.7b Done: Wrist_Band sent an admission notification to Printer, 22
+u: Wrist_Band at 590.4599999999999: Step 1.8 Done: Wrist_Band adds Printer, 22 to oppnet file
+u: Wrist_Band at 590.4599999999999: Helper Integration Time = 590.45
+u: Wrist_Band at 590.4599999999999: Step 1.3 Done: Wrist_Band, 1 discovered forwarding services in Tablet2, 24
+u: Wrist_Band at 590.4599999999999: Step 1.4 Done:Tablet2, 24 is not a member of oppnet
+u: Wrist_Band at 590.4599999999999: Step 1.5 Done: Wrist_Band sent a request for help to Tablet2, 24
+u: Printer at 689.1499999999999: Step 2.4 Done: Printer, 22 received a message from a node with id 1
+u: Tablet2 at 689.1499999999999: Step 2.1 Done: Tablet2, 24 received a message from a node with id 1
+u: Tablet2 at 689.1699999999998: msgproctime from helper 0.02
+u: Tablet2 at 689.1699999999998: Step 2.2 Done: Tablet2, 24 processes the message and it is a help request from Wrist_Band, 1
+u: Tablet2 at 689.1699999999998: From Helper Oppnet trans time = 98.69
+u: Tablet2 at 689.1699999999998: Step 2.3 Done: Tablet2, 24 sent a join request to Wrist_Band, 1
+u: Printer at 728.2899999999998: Step 2.5 Done: Printer, 22 processes the message and it is admission notification from  Wrist_Band, 1
+u: Wrist_Band at 787.8599999999999: Step 1.6 Done: Wrist_Band received a message from a node with id 24
+u: Wrist_Band at 826.9999999999999: Step 1.7a Done: Wrist_Band evaluated the message and source and it is a join request from Tablet2, 24
+u: Wrist_Band at 826.9999999999999: Step 1.7b Done: Wrist_Band sent an admission notification to Tablet2, 24
+u: Wrist_Band at 826.9999999999999: Step 1.8 Done: Wrist_Band adds Tablet2, 24 to oppnet file
+u: Wrist_Band at 826.9999999999999: Helper Integration Time = 826.99
+u: Wrist_Band at 826.9999999999999: Step 1.3 Done: Wrist_Band, 1 discovered forwarding services in StreetLight, 26
+u: Wrist_Band at 826.9999999999999: Step 1.4 Done:StreetLight, 26 is not a member of oppnet
+u: Wrist_Band at 826.9999999999999: Step 1.5 Done: Wrist_Band sent a request for help to StreetLight, 26
+u: StreetLight at 925.6899999999998: Step 2.1 Done: StreetLight, 26 received a message from a node with id 1
+u: Tablet2 at 925.6899999999998: Step 2.4 Done: Tablet2, 24 received a message from a node with id 1
+u: Tablet2 at 925.7099999999998: Step 2.5 Done: Tablet2, 24 processes the message and it is admission notification from  Wrist_Band, 1
+u: StreetLight at 964.8299999999998: msgproctime from helper 39.14
+u: StreetLight at 964.8299999999998: Step 2.2 Done: StreetLight, 26 processes the message and it is a help request from Wrist_Band, 1
+u: StreetLight at 964.8299999999998: From Helper Oppnet trans time = 98.69
+u: StreetLight at 964.8299999999998: Step 2.3 Done: StreetLight, 26 sent a join request to Wrist_Band, 1
+u: Wrist_Band at 1063.5199999999998: Step 1.6 Done: Wrist_Band received a message from a node with id 26
+u: Wrist_Band at 1102.6599999999999: Step 1.7a Done: Wrist_Band evaluated the message and source and it is a join request from StreetLight, 26
+u: Wrist_Band at 1102.6599999999999: Step 1.7b Done: Wrist_Band sent an admission notification to StreetLight, 26
+u: Wrist_Band at 1102.6599999999999: Step 1.8 Done: Wrist_Band adds StreetLight, 26 to oppnet file
+u: Wrist_Band at 1102.6599999999999: Helper Integration Time = 1102.65
+u: Wrist_Band at 1102.6599999999999: Step 1.3 Done: Wrist_Band, 1 discovered forwarding services in Printer, 33
+u: Wrist_Band at 1102.6599999999999: Step 1.4 Done:Printer, 33 is not a member of oppnet
+u: Wrist_Band at 1102.6599999999999: Step 1.5 Done: Wrist_Band sent a request for help to Printer, 33
+u: StreetLight at 1201.35: Step 2.4 Done: StreetLight, 26 received a message from a node with id 1
+u: Printer at 1201.35: Step 2.1 Done: Printer, 33 received a message from a node with id 1
+u: StreetLight at 1240.49: Step 2.5 Done: StreetLight, 26 processes the message and it is admission notification from  Wrist_Band, 1
+u: Printer at 1240.49: msgproctime from helper 39.14
+u: Printer at 1240.49: Step 2.2 Done: Printer, 33 processes the message and it is a help request from Wrist_Band, 1
+u: Printer at 1240.49: From Helper Oppnet trans time = 98.69
+u: Printer at 1240.49: Step 2.3 Done: Printer, 33 sent a join request to Wrist_Band, 1
+u: Wrist_Band at 1339.18: Step 1.6 Done: Wrist_Band received a message from a node with id 33
+u: Wrist_Band at 1378.3200000000002: Step 1.7a Done: Wrist_Band evaluated the message and source and it is a join request from Printer, 33
+u: Wrist_Band at 1378.3200000000002: Step 1.7b Done: Wrist_Band sent an admission notification to Printer, 33
+u: Wrist_Band at 1378.3200000000002: Step 1.8 Done: Wrist_Band adds Printer, 33 to oppnet file
+u: Wrist_Band at 1378.3200000000002: Helper Integration Time = 1378.32
+u: Wrist_Band at 1378.3200000000002: Step 1.9 Done: Wrist_Band, 1 sent person file to ParkingMeter, 4
+u: Wrist_Band at 1378.3200000000002: Step 1.10 Done: Wrist_Band, 1 sent oppnet file to ParkingMeter, 4
+u: Wrist_Band at 1378.3200000000002: Step 1.11 Done: Wrist_Band, 1 sent oppnet file to ParkingMeter, 4
+u: Wrist_Band at 1378.3200000000002: Step 1.9 Done: Wrist_Band, 1 sent person file to Printer, 22
+u: Wrist_Band at 1378.3200000000002: Step 1.10 Done: Wrist_Band, 1 sent oppnet file to Printer, 22
+u: Wrist_Band at 1378.3200000000002: Step 1.11 Done: Wrist_Band, 1 sent oppnet file to Printer, 22
+u: Wrist_Band at 1378.3200000000002: Step 1.9 Done: Wrist_Band, 1 sent person file to Tablet2, 24
+u: Wrist_Band at 1378.3200000000002: Step 1.10 Done: Wrist_Band, 1 sent oppnet file to Tablet2, 24
+u: Wrist_Band at 1378.3200000000002: Step 1.11 Done: Wrist_Band, 1 sent oppnet file to Tablet2, 24
+u: Wrist_Band at 1378.3200000000002: Step 1.9 Done: Wrist_Band, 1 sent person file to StreetLight, 26
+u: Wrist_Band at 1378.3200000000002: Step 1.10 Done: Wrist_Band, 1 sent oppnet file to StreetLight, 26
+u: Wrist_Band at 1378.3200000000002: Step 1.11 Done: Wrist_Band, 1 sent oppnet file to StreetLight, 26
+u: Wrist_Band at 1378.3200000000002: Step 1.9 Done: Wrist_Band, 1 sent person file to Printer, 33
+u: Wrist_Band at 1378.3200000000002: Step 1.10 Done: Wrist_Band, 1 sent oppnet file to Printer, 33
+u: Wrist_Band at 1378.3200000000002: Step 1.11 Done: Wrist_Band, 1 sent oppnet file to Printer, 33
+u: ParkingMeter at 1477.0100000000002: Step 2.6: ParkingMeter, 4 received a message from a node with id 1
+u: Printer at 1477.0100000000002: Step 2.6: Printer, 22 received a message from a node with id 1
+u: Printer at 1477.0100000000002: Step 2.4 Done: Printer, 33 received a message from a node with id 1
+u: StreetLight at 1477.0100000000002: Step 2.6: StreetLight, 26 received a message from a node with id 1
+u: Tablet2 at 1477.0100000000002: Step 2.6: Tablet2, 24 received a message from a node with id 1
+u: Tablet2 at 1477.0300000000002: Step 2.7: Tablet2, 24 processes the message and it is the person file from Wrist_Band,1
+u: Tablet2 at 1477.0300000000002: Step 2.8a: Tablet2, 24 received a message from a node with id 1
+u: Tablet2 at 1477.0500000000002: Step 2.8ba: Tablet2, 24 processes the message and it is the oppnet file from Wrist_Band,1
+u: Tablet2 at 1477.0500000000002: Step 2.8c Done: Tablet2, 24 received a message from a node with id 1
+u: Tablet2 at 1477.0700000000002: Step 2.9 Done: Tablet2, 24 processes the message and it is the current iteration oppnet file from Wrist_Band, 1
+u: Tablet2 at 1477.0700000000002: Step 2.10: Tablet2, 24 select task Display Msg
+u: Tablet2 at 1477.0700000000002: Step 2.10: Tablet2, 24 select task Upload file to DB server
+u: Tablet2 at 1477.0700000000002: Step 2.10: Tablet2, 24 select task Inform 911
+u: Tablet2 at 1477.0700000000002: Step 2.11: Tablet2, 24 run app Display Msg
+u: Tablet2 at 1477.0700000000002: Step 2.11: Tablet2, 24 run app Upload file to DB server
+u: Tablet2 at 1477.0700000000002: Step 2.11: Tablet2, 24 run app Inform 911
+u: Tablet2 at 1477.0700000000002: Step 2.12: Tablet2, 24 is done with the urgent task Inform 911
+u: Tablet2 at 1477.0700000000002: Step 2.13: Tablet2, 24 I will NOT forward im done
+u: Printer at 1516.1500000000003: Step 2.7: Printer, 22 processes the message and it is the person file from Wrist_Band,1
+u: Printer at 1516.1500000000003: Step 2.5 Done: Printer, 33 processes the message and it is admission notification from  Wrist_Band, 1
+u: ParkingMeter at 1516.1500000000003: Step 2.7: ParkingMeter, 4 processes the message and it is the person file from Wrist_Band,1
+u: Printer at 1516.1500000000003: Step 2.6: Printer, 33 received a message from a node with id 1
+u: StreetLight at 1516.1500000000003: Step 2.7: StreetLight, 26 processes the message and it is the person file from Wrist_Band,1
+u: Printer at 1516.1500000000003: Step 2.8a: Printer, 22 received a message from a node with id 1
+u: ParkingMeter at 1516.1500000000003: Step 2.8a: ParkingMeter, 4 received a message from a node with id 1
+u: StreetLight at 1516.1500000000003: Step 2.8a: StreetLight, 26 received a message from a node with id 1
+u: ParkingMeter at 1555.2900000000004: Step 2.8ba: ParkingMeter, 4 processes the message and it is the oppnet file from Wrist_Band,1
+u: ParkingMeter at 1555.2900000000004: Step 2.8c Done: ParkingMeter, 4 received a message from a node with id 1
+u: Printer at 1555.2900000000004: Step 2.8ba: Printer, 22 processes the message and it is the oppnet file from Wrist_Band,1
+u: StreetLight at 1555.2900000000004: Step 2.8ba: StreetLight, 26 processes the message and it is the oppnet file from Wrist_Band,1
+u: Printer at 1555.2900000000004: Step 2.7: Printer, 33 processes the message and it is the person file from Wrist_Band,1
+u: Printer at 1555.2900000000004: Step 2.8a: Printer, 33 received a message from a node with id 1
+u: StreetLight at 1555.2900000000004: Step 2.8c Done: StreetLight, 26 received a message from a node with id 1
+u: Printer at 1555.2900000000004: Step 2.8c Done: Printer, 22 received a message from a node with id 1
+u: ParkingMeter at 1594.4300000000005: Step 2.9 Done: ParkingMeter, 4 processes the message and it is the current iteration oppnet file from Wrist_Band, 1
+u: StreetLight at 1594.4300000000005: Step 2.9 Done: StreetLight, 26 processes the message and it is the current iteration oppnet file from Wrist_Band, 1
+u: ParkingMeter at 1594.4300000000005: Step 2.13: ParkingMeter, 4 I could not do urgent task,, I will forward
+u: Printer at 1594.4300000000005: Step 2.9 Done: Printer, 22 processes the message and it is the current iteration oppnet file from Wrist_Band, 1
+u: Printer at 1594.4300000000005: Step 2.8ba: Printer, 33 processes the message and it is the oppnet file from Wrist_Band,1
+u: Printer at 1594.4300000000005: Step 2.8c Done: Printer, 33 received a message from a node with id 1
+u: Printer at 1594.4300000000005: Step 2.10: Printer, 22 select task Display Msg
+u: Printer at 1594.4300000000005: Step 2.11: Printer, 22 run app Display Msg
+u: Printer at 1594.4300000000005: Step 2.13: Printer, 22 I could not do urgent task,, I will forward
+u: StreetLight at 1594.4300000000005: Step 2.13: StreetLight, 26 I could not do urgent task,, I will forward
+u: ParkingMeter at 1633.5700000000006: Step 2.13 Done: ParkingMeter, 4 is done scanning for helpers in range and found the following:
+u: ParkingMeter at 1633.5700000000006: ParkingMeter, 4, found Printer, ID = 35
+u: ParkingMeter at 1633.5700000000006: Step 2.14 Done: ParkingMeter ,4 discovered forwarding services in Printer, 35
+u: ParkingMeter at 1633.5700000000006: Step 2.15 Done:Printer, 35 is not a member of oppnet
+u: ParkingMeter at 1633.5700000000006: Step 2.16 Done: ParkingMeter, 4 sent a request for help to Printer, 35
+u: Printer at 1633.5700000000006: Step 2.13 Done: Printer, 22 is done scanning for helpers in range and found the following:
+u: Printer at 1633.5700000000006: None
+u: StreetLight at 1633.5700000000006: Step 2.13 Done: StreetLight, 26 is done scanning for helpers in range and found the following:
+u: StreetLight at 1633.5700000000006: StreetLight, 26, found Tablet2, ID = 2
+u: StreetLight at 1633.5700000000006: StreetLight, 26, found StreetLight, ID = 18
+u: StreetLight at 1633.5700000000006: StreetLight, 26, found Tablet1, ID = 46
+u: StreetLight at 1633.5700000000006: Step 2.14 Done: StreetLight ,26 discovered forwarding services in Tablet2, 2
+u: StreetLight at 1633.5700000000006: Step 2.15 Done:Tablet2, 2 is already a member of oppnet
+u: StreetLight at 1633.5700000000006: Step 2.16 Done: StreetLight, 26 sent a request for help to Tablet2, 2
+u: Printer at 1633.5700000000006: Step 2.9 Done: Printer, 33 processes the message and it is the current iteration oppnet file from Wrist_Band, 1
+u: Printer at 1633.5700000000006: Step 2.10: Printer, 33 select task Display Msg
+u: Printer at 1633.5700000000006: Step 2.11: Printer, 33 run app Display Msg
+u: Printer at 1633.5700000000006: Step 2.13: Printer, 33 I could not do urgent task,, I will forward
+u: Printer at 1672.7100000000007: Step 2.13 Done: Printer, 33 is done scanning for helpers in range and found the following:
+u: Printer at 1672.7100000000007: Printer, 33, found StreetLight, ID = 18
+u: Printer at 1672.7100000000007: Printer, 33, found Tablet1, ID = 46
+u: Printer at 1672.7100000000007: Step 2.14 Done: Printer ,33 discovered forwarding services in StreetLight, 18
+u: Printer at 1672.7100000000007: Step 2.15 Done:StreetLight, 18 is not a member of oppnet
+u: Printer at 1672.7100000000007: Step 2.16 Done: Printer, 33 sent a request for help to StreetLight, 18
+u: Tablet2 at 1732.2600000000007: Step 2.1 Done: Tablet2, 2 received a message from a node with id 26
+u: Printer at 1732.2600000000007: Step 2.1 Done: Printer, 35 received a message from a node with id 4
+u: Tablet2 at 1732.2800000000007: msgproctime from helper 0.02
+u: Tablet2 at 1732.2800000000007: Step 2.2 Done: Tablet2, 2 processes the message and it is a help request from StreetLight, 26
+u: Tablet2 at 1732.2800000000007: From Helper Oppnet trans time = 98.69
+u: Tablet2 at 1732.2800000000007: Step 2.3 Done: Tablet2, 2 sent a join request to StreetLight, 26
+u: StreetLight at 1771.4000000000008: Step 2.1 Done: StreetLight, 18 received a message from a node with id 33
+u: Printer at 1771.4000000000008: msgproctime from helper 39.14
+u: Printer at 1771.4000000000008: Step 2.2 Done: Printer, 35 processes the message and it is a help request from ParkingMeter, 4
+u: Printer at 1771.4000000000008: From Helper Oppnet trans time = 98.69
+u: Printer at 1771.4000000000008: Step 2.3 Done: Printer, 35 sent a join request to ParkingMeter, 4
+u: StreetLight at 1810.5400000000009: msgproctime from helper 39.14
+u: StreetLight at 1810.5400000000009: Step 2.2 Done: StreetLight, 18 processes the message and it is a help request from Printer, 33
+u: StreetLight at 1810.5400000000009: From Helper Oppnet trans time = 98.69
+u: StreetLight at 1810.5400000000009: Step 2.3 Done: StreetLight, 18 sent a join request to Printer, 33
+u: StreetLight at 1830.9700000000007: Step 2.17 Done: StreetLight, 26 received a message from a node with id 2
+u: ParkingMeter at 1870.0900000000008: Step 2.17 Done: ParkingMeter, 4 received a message from a node with id 35
+u: StreetLight at 1870.1100000000008: Step 2.18a Done: StreetLight, 26 evaluated the message and source and it is a join request from Tablet2, 2
+u: StreetLight at 1870.1100000000008: Step 2.18b Done: StreetLight, 26 sent an admission notification to Tablet2, 2
+u: StreetLight at 1870.1100000000008: Step 2.19a Done: StreetLight added Tablet2, 2 to oppnet file
+u: StreetLight at 1870.1100000000008: Helper Integration Time = 1870.11
+u: StreetLight at 1870.1100000000008: Step 2.19b Done: StreetLight added Tablet2, 2 to current iterationoppnet file
+u: StreetLight at 1870.1100000000008: Helper Integration Time = 1870.11
+u: StreetLight at 1870.1100000000008: Step 2.20 Done: StreetLight, 26 sent person file to Tablet2, 2
+u: StreetLight at 1870.1100000000008: Step 2.21 Done: StreetLight, 26 sent oppnet file to Tablet2, 2
+u: StreetLight at 1870.1100000000008: Step 2.22 Done: StreetLight, 26 sent current iteration oppnet file to Tablet2, 2
+u: StreetLight at 1870.1100000000008: Step 2.14 Done: StreetLight ,26 discovered forwarding services in StreetLight, 18
+u: StreetLight at 1870.1100000000008: Step 2.15 Done:StreetLight, 18 is not a member of oppnet
+u: StreetLight at 1870.1100000000008: Step 2.16 Done: StreetLight, 26 sent a request for help to StreetLight, 18
+u: ParkingMeter at 1909.230000000001: Step 2.18a Done: ParkingMeter, 4 evaluated the message and source and it is a join request from Printer, 35
+u: Printer at 1909.230000000001: Step 2.17 Done: Printer, 33 received a message from a node with id 18
+u: ParkingMeter at 1909.230000000001: Step 2.18b Done: ParkingMeter, 4 sent an admission notification to Printer, 35
+u: ParkingMeter at 1909.230000000001: Step 2.19a Done: ParkingMeter added Printer, 35 to oppnet file
+u: ParkingMeter at 1909.230000000001: Helper Integration Time = 1909.23
+u: ParkingMeter at 1909.230000000001: Step 2.19b Done: ParkingMeter added Printer, 35 to current iterationoppnet file
+u: ParkingMeter at 1909.230000000001: Helper Integration Time = 1909.23
+u: ParkingMeter at 1909.230000000001: Step 2.20 Done: ParkingMeter, 4 sent person file to Printer, 35
+u: ParkingMeter at 1909.230000000001: Step 2.21 Done: ParkingMeter, 4 sent oppnet file to Printer, 35
+u: ParkingMeter at 1909.230000000001: Step 2.22 Done: ParkingMeter, 4 sent current iteration oppnet file to Printer, 35
+u: Printer at 1948.370000000001: Step 2.18a Done: Printer, 33 evaluated the message and source and it is a join request from StreetLight, 18
+u: Printer at 1948.370000000001: Step 2.18b Done: Printer, 33 sent an admission notification to StreetLight, 18
+u: Printer at 1948.370000000001: Step 2.19a Done: Printer added StreetLight, 18 to oppnet file
+u: Printer at 1948.370000000001: Helper Integration Time = 1948.37
+u: Printer at 1948.370000000001: Step 2.19b Done: Printer added StreetLight, 18 to current iterationoppnet file
+u: Printer at 1948.370000000001: Helper Integration Time = 1948.37
+u: Printer at 1948.370000000001: Step 2.20 Done: Printer, 33 sent person file to StreetLight, 18
+u: Printer at 1948.370000000001: Step 2.21 Done: Printer, 33 sent oppnet file to StreetLight, 18
+u: Printer at 1948.370000000001: Step 2.22 Done: Printer, 33 sent current iteration oppnet file to StreetLight, 18
+u: Printer at 1948.370000000001: Step 2.14 Done: Printer ,33 discovered forwarding services in Tablet1, 46
+u: Printer at 1948.370000000001: Step 2.15 Done:Tablet1, 46 is not a member of oppnet
+u: Printer at 1948.370000000001: Step 2.16 Done: Printer, 33 sent a request for help to Tablet1, 46
+u: Tablet2 at 1968.8000000000009: Step 2.4 Done: Tablet2, 2 received a message from a node with id 26
+u: StreetLight at 1968.8000000000009: Step 2.4 Done: StreetLight, 18 received a message from a node with id 26
+u: Tablet2 at 1968.8200000000008: Step 2.5 Done: Tablet2, 2 processes the message and it is admission notification from  StreetLight, 26
+u: Tablet2 at 1968.8200000000008: Step 2.6: Tablet2, 2 received a message from a node with id 26
+u: Tablet2 at 1968.8400000000008: Step 2.7: Tablet2, 2 processes the message and it is the person file from StreetLight,26
+u: Tablet2 at 1968.8400000000008: Step 2.8a: Tablet2, 2 received a message from a node with id 26
+u: Tablet2 at 1968.8600000000008: Step 2.8ba: Tablet2, 2 processes the message and it is the oppnet file from StreetLight,26
+u: Tablet2 at 1968.8600000000008: Step 2.8c Done: Tablet2, 2 received a message from a node with id 26
+u: Tablet2 at 1968.8800000000008: Step 2.9 Done: Tablet2, 2 processes the message and it is the current iteration oppnet file from StreetLight, 26
+u: Tablet2 at 1968.8800000000008: Step 2.10: Tablet2, 2 select task Display Msg
+u: Tablet2 at 1968.8800000000008: Step 2.10: Tablet2, 2 select task Upload file to DB server
+u: Tablet2 at 1968.8800000000008: Step 2.10: Tablet2, 2 select task Inform 911
+u: Tablet2 at 1968.8800000000008: Step 2.11: Tablet2, 2 run app Display Msg
+u: Tablet2 at 1968.8800000000008: Step 2.11: Tablet2, 2 run app Upload file to DB server
+u: Tablet2 at 1968.8800000000008: Step 2.11: Tablet2, 2 run app Inform 911
+u: Tablet2 at 1968.8800000000008: Step 2.12: Tablet2, 2 is done with the urgent task Inform 911
+u: Tablet2 at 1968.8800000000008: Step 2.13: Tablet2, 2 I will NOT forward im done
+u: Printer at 2007.920000000001: Step 2.4 Done: Printer, 35 received a message from a node with id 4
+u: Printer at 2047.060000000001: Step 2.5 Done: Printer, 35 processes the message and it is admission notification from  ParkingMeter, 4
+u: Tablet1 at 2047.060000000001: Step 2.1 Done: Tablet1, 46 received a message from a node with id 33
+u: Printer at 2047.060000000001: Step 2.6: Printer, 35 received a message from a node with id 4
+u: Tablet1 at 2047.080000000001: msgproctime from helper 0.02
+u: Tablet1 at 2047.080000000001: Step 2.2 Done: Tablet1, 46 processes the message and it is a help request from Printer, 33
+u: Tablet1 at 2047.080000000001: From Helper Oppnet trans time = 98.69
+u: Tablet1 at 2047.080000000001: Step 2.3 Done: Tablet1, 46 sent a join request to Printer, 33
+u: Printer at 2086.200000000001: Step 2.7: Printer, 35 processes the message and it is the person file from ParkingMeter,4
+u: Printer at 2086.200000000001: Step 2.8a: Printer, 35 received a message from a node with id 4
+u: Printer at 2125.340000000001: Step 2.8ba: Printer, 35 processes the message and it is the oppnet file from ParkingMeter,4
+u: Printer at 2125.340000000001: Step 2.8c Done: Printer, 35 received a message from a node with id 4
+u: Printer at 2145.770000000001: Step 2.17 Done: Printer, 33 received a message from a node with id 46
+u: Printer at 2164.480000000001: Step 2.9 Done: Printer, 35 processes the message and it is the current iteration oppnet file from ParkingMeter, 4
+u: Printer at 2164.480000000001: Step 2.10: Printer, 35 select task Display Msg
+u: Printer at 2164.480000000001: Step 2.11: Printer, 35 run app Display Msg
+u: Printer at 2164.480000000001: Step 2.13: Printer, 35 I could not do urgent task,, I will forward
+u: Printer at 2184.9100000000008: Step 2.18a Done: Printer, 33 evaluated the message and source and it is a join request from Tablet1, 46
+u: Printer at 2184.9100000000008: Step 2.18b Done: Printer, 33 sent an admission notification to Tablet1, 46
+u: Printer at 2184.9100000000008: Step 2.19a Done: Printer added Tablet1, 46 to oppnet file
+u: Printer at 2184.9100000000008: Helper Integration Time = 2184.91
+u: Printer at 2184.9100000000008: Step 2.19b Done: Printer added Tablet1, 46 to current iterationoppnet file
+u: Printer at 2184.9100000000008: Helper Integration Time = 2184.91
+u: Printer at 2184.9100000000008: Step 2.20 Done: Printer, 33 sent person file to Tablet1, 46
+u: Printer at 2184.9100000000008: Step 2.21 Done: Printer, 33 sent oppnet file to Tablet1, 46
+u: Printer at 2184.9100000000008: Step 2.22 Done: Printer, 33 sent current iteration oppnet file to Tablet1, 46
+u: Printer at 2203.620000000001: Step 2.13 Done: Printer, 35 is done scanning for helpers in range and found the following:
+u: Printer at 2203.620000000001: None
+u: Tablet1 at 2283.600000000001: Step 2.4 Done: Tablet1, 46 received a message from a node with id 33
+u: Tablet1 at 2283.620000000001: Step 2.5 Done: Tablet1, 46 processes the message and it is admission notification from  Printer, 33
+u: Tablet1 at 2283.620000000001: Step 2.6: Tablet1, 46 received a message from a node with id 33
+u: Tablet1 at 2283.640000000001: Step 2.7: Tablet1, 46 processes the message and it is the person file from Printer,33
+u: Tablet1 at 2283.640000000001: Step 2.8a: Tablet1, 46 received a message from a node with id 33
+u: Tablet1 at 2283.6600000000008: Step 2.8ba: Tablet1, 46 processes the message and it is the oppnet file from Printer,33
+u: Tablet1 at 2283.6600000000008: Step 2.8c Done: Tablet1, 46 received a message from a node with id 33
+u: Tablet1 at 2283.6800000000007: Step 2.9 Done: Tablet1, 46 processes the message and it is the current iteration oppnet file from Printer, 33
+u: Tablet1 at 2283.6800000000007: Step 2.10: Tablet1, 46 select task Display Msg
+u: Tablet1 at 2283.6800000000007: Step 2.10: Tablet1, 46 select task Upload file to DB server
+u: Tablet1 at 2283.6800000000007: Step 2.11: Tablet1, 46 run app Display Msg
+u: Tablet1 at 2283.6800000000007: Step 2.11: Tablet1, 46 run app Upload file to DB server
+u: Tablet1 at 2283.6800000000007: Step 2.13: Tablet1, 46 I could not do urgent task,, I will forward
+u: Tablet1 at 2283.7000000000007: Step 2.13 Done: Tablet1, 46 is done scanning for helpers in range and found the following:
+u: Tablet1 at 2283.7000000000007: Tablet1, 46, found Tablet1, ID = 5
+u: Tablet1 at 2283.7000000000007: Tablet1, 46, found Printer, ID = 25
+u: Tablet1 at 2283.7000000000007: Tablet1, 46, found Tablet2, ID = 27
+u: Tablet1 at 2283.7000000000007: Step 2.14 Done: Tablet1 ,46 discovered forwarding services in Tablet1, 5
+u: Tablet1 at 2283.7000000000007: Step 2.15 Done:Tablet1, 5 is not a member of oppnet
+u: Tablet1 at 2283.7000000000007: Step 2.16 Done: Tablet1, 46 sent a request for help to Tablet1, 5
+u: Tablet1 at 2382.390000000001: Step 2.1 Done: Tablet1, 5 received a message from a node with id 46
+u: Tablet1 at 2382.4100000000008: msgproctime from helper 0.02
+u: Tablet1 at 2382.4100000000008: Step 2.2 Done: Tablet1, 5 processes the message and it is a help request from Tablet1, 46
+u: Tablet1 at 2382.4100000000008: From Helper Oppnet trans time = 98.69
+u: Tablet1 at 2382.4100000000008: Step 2.3 Done: Tablet1, 5 sent a join request to Tablet1, 46
+u: Tablet1 at 2481.100000000001: Step 2.17 Done: Tablet1, 46 received a message from a node with id 5
+u: Tablet1 at 2481.120000000001: Step 2.18a Done: Tablet1, 46 evaluated the message and source and it is a join request from Tablet1, 5
+u: Tablet1 at 2481.120000000001: Step 2.18b Done: Tablet1, 46 sent an admission notification to Tablet1, 5
+u: Tablet1 at 2481.120000000001: Step 2.19a Done: Tablet1 added Tablet1, 5 to oppnet file
+u: Tablet1 at 2481.120000000001: Helper Integration Time = 2481.12
+u: Tablet1 at 2481.120000000001: Step 2.19b Done: Tablet1 added Tablet1, 5 to current iterationoppnet file
+u: Tablet1 at 2481.120000000001: Helper Integration Time = 2481.12
+u: Tablet1 at 2481.120000000001: Step 2.20 Done: Tablet1, 46 sent person file to Tablet1, 5
+u: Tablet1 at 2481.120000000001: Step 2.21 Done: Tablet1, 46 sent oppnet file to Tablet1, 5
+u: Tablet1 at 2481.120000000001: Step 2.22 Done: Tablet1, 46 sent current iteration oppnet file to Tablet1, 5
+u: Tablet1 at 2481.120000000001: Step 2.14 Done: Tablet1 ,46 discovered forwarding services in Printer, 25
+u: Tablet1 at 2481.120000000001: Step 2.15 Done:Printer, 25 is not a member of oppnet
+u: Tablet1 at 2481.120000000001: Step 2.16 Done: Tablet1, 46 sent a request for help to Printer, 25
+u: Tablet1 at 2579.810000000001: Step 2.4 Done: Tablet1, 5 received a message from a node with id 46
+u: Printer at 2579.810000000001: Step 2.1 Done: Printer, 25 received a message from a node with id 46
+u: Tablet1 at 2579.830000000001: Step 2.5 Done: Tablet1, 5 processes the message and it is admission notification from  Tablet1, 46
+u: Tablet1 at 2579.830000000001: Step 2.6: Tablet1, 5 received a message from a node with id 46
+u: Tablet1 at 2579.850000000001: Step 2.7: Tablet1, 5 processes the message and it is the person file from Tablet1,46
+u: Tablet1 at 2579.850000000001: Step 2.8a: Tablet1, 5 received a message from a node with id 46
+u: Tablet1 at 2579.870000000001: Step 2.8ba: Tablet1, 5 processes the message and it is the oppnet file from Tablet1,46
+u: Tablet1 at 2579.870000000001: Step 2.8c Done: Tablet1, 5 received a message from a node with id 46
+u: Tablet1 at 2579.890000000001: Step 2.9 Done: Tablet1, 5 processes the message and it is the current iteration oppnet file from Tablet1, 46
+u: Tablet1 at 2579.890000000001: Step 2.10: Tablet1, 5 select task Display Msg
+u: Tablet1 at 2579.890000000001: Step 2.10: Tablet1, 5 select task Upload file to DB server
+u: Tablet1 at 2579.890000000001: Step 2.11: Tablet1, 5 run app Display Msg
+u: Tablet1 at 2579.890000000001: Step 2.11: Tablet1, 5 run app Upload file to DB server
+u: Tablet1 at 2579.890000000001: Step 2.13: Tablet1, 5 I could not do urgent task,, I will forward
+u: Tablet1 at 2579.9100000000008: Step 2.13 Done: Tablet1, 5 is done scanning for helpers in range and found the following:
+u: Tablet1 at 2579.9100000000008: Tablet1, 5, found Printer, ID = 14
+u: Tablet1 at 2579.9100000000008: Tablet1, 5, found Tablet2, ID = 27
+u: Tablet1 at 2579.9100000000008: Tablet1, 5, found TV, ID = 28
+u: Tablet1 at 2579.9100000000008: Tablet1, 5, found Tablet1, ID = 30
+u: Tablet1 at 2579.9100000000008: Step 2.14 Done: Tablet1 ,5 discovered forwarding services in Printer, 14
+u: Tablet1 at 2579.9100000000008: Step 2.15 Done:Printer, 14 is not a member of oppnet
+u: Tablet1 at 2579.9100000000008: Step 2.16 Done: Tablet1, 5 sent a request for help to Printer, 14
+u: Printer at 2618.9500000000007: msgproctime from helper 39.14
+u: Printer at 2618.9500000000007: Step 2.2 Done: Printer, 25 processes the message and it is a help request from Tablet1, 46
+u: Printer at 2618.9500000000007: From Helper Oppnet trans time = 98.69
+u: Printer at 2618.9500000000007: Step 2.3 Done: Printer, 25 sent a join request to Tablet1, 46
+u: Printer at 2678.600000000001: Step 2.1 Done: Printer, 14 received a message from a node with id 5
+u: Tablet1 at 2717.640000000001: Step 2.17 Done: Tablet1, 46 received a message from a node with id 25
+u: Tablet1 at 2717.6600000000008: Step 2.18a Done: Tablet1, 46 evaluated the message and source and it is a join request from Printer, 25
+u: Tablet1 at 2717.6600000000008: Step 2.18b Done: Tablet1, 46 sent an admission notification to Printer, 25
+u: Tablet1 at 2717.6600000000008: Step 2.19a Done: Tablet1 added Printer, 25 to oppnet file
+u: Tablet1 at 2717.6600000000008: Helper Integration Time = 2717.66
+u: Tablet1 at 2717.6600000000008: Step 2.19b Done: Tablet1 added Printer, 25 to current iterationoppnet file
+u: Tablet1 at 2717.6600000000008: Helper Integration Time = 2717.66
+u: Tablet1 at 2717.6600000000008: Step 2.20 Done: Tablet1, 46 sent person file to Printer, 25
+u: Tablet1 at 2717.6600000000008: Step 2.21 Done: Tablet1, 46 sent oppnet file to Printer, 25
+u: Tablet1 at 2717.6600000000008: Step 2.22 Done: Tablet1, 46 sent current iteration oppnet file to Printer, 25
+u: Tablet1 at 2717.6600000000008: Step 2.14 Done: Tablet1 ,46 discovered forwarding services in Tablet2, 27
+u: Tablet1 at 2717.6600000000008: Step 2.15 Done:Tablet2, 27 is not a member of oppnet
+u: Tablet1 at 2717.6600000000008: Step 2.16 Done: Tablet1, 46 sent a request for help to Tablet2, 27
+u: Printer at 2717.7400000000007: msgproctime from helper 39.14
+u: Printer at 2717.7400000000007: Step 2.2 Done: Printer, 14 processes the message and it is a help request from Tablet1, 5
+u: Printer at 2717.7400000000007: From Helper Oppnet trans time = 98.69
+u: Printer at 2717.7400000000007: Step 2.3 Done: Printer, 14 sent a join request to Tablet1, 5
+u: Printer at 2816.350000000001: Step 2.4 Done: Printer, 25 received a message from a node with id 46
+u: Tablet2 at 2816.350000000001: Step 2.1 Done: Tablet2, 27 received a message from a node with id 46
+u: Tablet2 at 2816.370000000001: msgproctime from helper 0.02
+u: Tablet2 at 2816.370000000001: Step 2.2 Done: Tablet2, 27 processes the message and it is a help request from Tablet1, 46
+u: Tablet2 at 2816.370000000001: From Helper Oppnet trans time = 98.69
+u: Tablet2 at 2816.370000000001: Step 2.3 Done: Tablet2, 27 sent a join request to Tablet1, 46
+u: Tablet1 at 2816.4300000000007: Step 2.17 Done: Tablet1, 5 received a message from a node with id 14
+u: Tablet1 at 2816.4500000000007: Step 2.18a Done: Tablet1, 5 evaluated the message and source and it is a join request from Printer, 14
+u: Tablet1 at 2816.4500000000007: Step 2.18b Done: Tablet1, 5 sent an admission notification to Printer, 14
+u: Tablet1 at 2816.4500000000007: Step 2.19a Done: Tablet1 added Printer, 14 to oppnet file
+u: Tablet1 at 2816.4500000000007: Helper Integration Time = 2816.45
+u: Tablet1 at 2816.4500000000007: Step 2.19b Done: Tablet1 added Printer, 14 to current iterationoppnet file
+u: Tablet1 at 2816.4500000000007: Helper Integration Time = 2816.45
+u: Tablet1 at 2816.4500000000007: Step 2.20 Done: Tablet1, 5 sent person file to Printer, 14
+u: Tablet1 at 2816.4500000000007: Step 2.21 Done: Tablet1, 5 sent oppnet file to Printer, 14
+u: Tablet1 at 2816.4500000000007: Step 2.22 Done: Tablet1, 5 sent current iteration oppnet file to Printer, 14
+u: Tablet1 at 2816.4500000000007: Step 2.14 Done: Tablet1 ,5 discovered forwarding services in Tablet2, 27
+u: Tablet1 at 2816.4500000000007: Step 2.15 Done:Tablet2, 27 is not a member of oppnet
+u: Tablet1 at 2816.4500000000007: Step 2.16 Done: Tablet1, 5 sent a request for help to Tablet2, 27
+u: Printer at 2855.4900000000007: Step 2.5 Done: Printer, 25 processes the message and it is admission notification from  Tablet1, 46
+u: Printer at 2855.4900000000007: Step 2.6: Printer, 25 received a message from a node with id 46
+u: Printer at 2894.6300000000006: Step 2.7: Printer, 25 processes the message and it is the person file from Tablet1,46
+u: Printer at 2894.6300000000006: Step 2.8a: Printer, 25 received a message from a node with id 46
+u: Tablet1 at 2915.060000000001: Step 2.17 Done: Tablet1, 46 received a message from a node with id 27
+u: Tablet1 at 2915.080000000001: Step 2.18a Done: Tablet1, 46 evaluated the message and source and it is a join request from Tablet2, 27
+u: Tablet1 at 2915.080000000001: Step 2.18b Done: Tablet1, 46 sent an admission notification to Tablet2, 27
+u: Tablet1 at 2915.080000000001: Step 2.19a Done: Tablet1 added Tablet2, 27 to oppnet file
+u: Tablet1 at 2915.080000000001: Helper Integration Time = 2915.08
+u: Tablet1 at 2915.080000000001: Step 2.19b Done: Tablet1 added Tablet2, 27 to current iterationoppnet file
+u: Tablet1 at 2915.080000000001: Helper Integration Time = 2915.08
+u: Tablet1 at 2915.080000000001: Step 2.20 Done: Tablet1, 46 sent person file to Tablet2, 27
+u: Tablet1 at 2915.080000000001: Step 2.21 Done: Tablet1, 46 sent oppnet file to Tablet2, 27
+u: Tablet1 at 2915.080000000001: Step 2.22 Done: Tablet1, 46 sent current iteration oppnet file to Tablet2, 27
+u: Printer at 2915.140000000001: Step 2.4 Done: Printer, 14 received a message from a node with id 5
+u: Tablet2 at 2915.140000000001: Step 2.4 Done: Tablet2, 27 received a message from a node with id 5
+u: Printer at 2933.7700000000004: Step 2.8ba: Printer, 25 processes the message and it is the oppnet file from Tablet1,46
+u: Printer at 2933.7700000000004: Step 2.8c Done: Printer, 25 received a message from a node with id 46
+u: Printer at 2954.2800000000007: Step 2.5 Done: Printer, 14 processes the message and it is admission notification from  Tablet1, 5
+u: Printer at 2954.2800000000007: Step 2.6: Printer, 14 received a message from a node with id 5
+u: Printer at 2972.9100000000003: Step 2.9 Done: Printer, 25 processes the message and it is the current iteration oppnet file from Tablet1, 46
+u: Printer at 2972.9100000000003: Step 2.10: Printer, 25 select task Display Msg
+u: Printer at 2972.9100000000003: Step 2.11: Printer, 25 run app Display Msg
+u: Printer at 2972.9100000000003: Step 2.13: Printer, 25 I could not do urgent task,, I will forward
+u: Printer at 2993.4200000000005: Step 2.7: Printer, 14 processes the message and it is the person file from Tablet1,5
+u: Printer at 2993.4200000000005: Step 2.8a: Printer, 14 received a message from a node with id 5
+u: Printer at 3012.05: Step 2.13 Done: Printer, 25 is done scanning for helpers in range and found the following:
+u: Printer at 3012.05: Printer, 25, found TV, ID = 28
+u: Printer at 3012.05: Printer, 25, found Tablet1, ID = 30
+u: Printer at 3012.05: Step 2.14 Done: Printer ,25 discovered forwarding services in TV, 28
+u: Printer at 3012.05: Step 2.15 Done:TV, 28 is not a member of oppnet
+u: Printer at 3012.05: Step 2.16 Done: Printer, 25 sent a request for help to TV, 28
+u: Printer at 3032.5600000000004: Step 2.8ba: Printer, 14 processes the message and it is the oppnet file from Tablet1,5
+u: Printer at 3032.5600000000004: Step 2.8c Done: Printer, 14 received a message from a node with id 5
+u: Printer at 3071.7000000000003: Step 2.9 Done: Printer, 14 processes the message and it is the current iteration oppnet file from Tablet1, 5
+u: Printer at 3071.7000000000003: Step 2.10: Printer, 14 select task Display Msg
+u: Printer at 3071.7000000000003: Step 2.11: Printer, 14 run app Display Msg
+u: Printer at 3071.7000000000003: Step 2.13: Printer, 14 I could not do urgent task,, I will forward
+u: TV at 3110.7400000000002: Step 2.1 Done: TV, 28 received a message from a node with id 25
+u: TV at 3110.76: msgproctime from helper 0.02
+u: TV at 3110.76: Step 2.2 Done: TV, 28 processes the message and it is a help request from Printer, 25
+u: TV at 3110.76: From Helper Oppnet trans time = 98.69
+u: TV at 3110.76: Step 2.3 Done: TV, 28 sent a join request to Printer, 25
+u: Printer at 3110.84: Step 2.13 Done: Printer, 14 is done scanning for helpers in range and found the following:
+u: Printer at 3110.84: None
+u: Printer at 3209.4500000000003: Step 2.17 Done: Printer, 25 received a message from a node with id 28
+u: Printer at 3248.59: Step 2.18a Done: Printer, 25 evaluated the message and source and it is a join request from TV, 28
+u: Printer at 3248.59: Step 2.18b Done: Printer, 25 sent an admission notification to TV, 28
+u: Printer at 3248.59: Step 2.19a Done: Printer added TV, 28 to oppnet file
+u: Printer at 3248.59: Helper Integration Time = 3248.59
+u: Printer at 3248.59: Step 2.19b Done: Printer added TV, 28 to current iterationoppnet file
+u: Printer at 3248.59: Helper Integration Time = 3248.59
+u: Printer at 3248.59: Step 2.20 Done: Printer, 25 sent person file to TV, 28
+u: Printer at 3248.59: Step 2.21 Done: Printer, 25 sent oppnet file to TV, 28
+u: Printer at 3248.59: Step 2.22 Done: Printer, 25 sent current iteration oppnet file to TV, 28
+u: Printer at 3248.59: Step 2.14 Done: Printer ,25 discovered forwarding services in Tablet1, 30
+u: Printer at 3248.59: Step 2.15 Done:Tablet1, 30 is not a member of oppnet
+u: Printer at 3248.59: Step 2.16 Done: Printer, 25 sent a request for help to Tablet1, 30
+u: TV at 3347.28: Step 2.4 Done: TV, 28 received a message from a node with id 25
+u: Tablet1 at 3347.28: Step 2.1 Done: Tablet1, 30 received a message from a node with id 25
+u: TV at 3347.3: Step 2.5 Done: TV, 28 processes the message and it is admission notification from  Printer, 25
+u: Tablet1 at 3347.3: msgproctime from helper 0.02
+u: Tablet1 at 3347.3: Step 2.2 Done: Tablet1, 30 processes the message and it is a help request from Printer, 25
+u: Tablet1 at 3347.3: From Helper Oppnet trans time = 98.69
+u: TV at 3347.3: Step 2.6: TV, 28 received a message from a node with id 25
+u: Tablet1 at 3347.3: Step 2.3 Done: Tablet1, 30 sent a join request to Printer, 25
+u: TV at 3347.32: Step 2.7: TV, 28 processes the message and it is the person file from Printer,25
+u: TV at 3347.32: Step 2.8a: TV, 28 received a message from a node with id 25
+u: TV at 3347.34: Step 2.8ba: TV, 28 processes the message and it is the oppnet file from Printer,25
+u: TV at 3347.34: Step 2.8c Done: TV, 28 received a message from a node with id 25
+u: TV at 3347.36: Step 2.9 Done: TV, 28 processes the message and it is the current iteration oppnet file from Printer, 25
+u: TV at 3347.36: Step 2.10: TV, 28 select task Display Msg
+u: TV at 3347.36: Step 2.11: TV, 28 run app Display Msg
+u: TV at 3347.36: Step 2.13: TV, 28 I could not do urgent task,, I will forward
+u: TV at 3347.38: Step 2.13 Done: TV, 28 is done scanning for helpers in range and found the following:
+u: TV at 3347.38: None
+u: Printer at 3445.9900000000002: Step 2.17 Done: Printer, 25 received a message from a node with id 30
+u: Printer at 3485.13: Step 2.18a Done: Printer, 25 evaluated the message and source and it is a join request from Tablet1, 30
+u: Printer at 3485.13: Step 2.18b Done: Printer, 25 sent an admission notification to Tablet1, 30
+u: Printer at 3485.13: Step 2.19a Done: Printer added Tablet1, 30 to oppnet file
+u: Printer at 3485.13: Helper Integration Time = 3485.13
+u: Printer at 3485.13: Step 2.19b Done: Printer added Tablet1, 30 to current iterationoppnet file
+u: Printer at 3485.13: Helper Integration Time = 3485.13
+u: Printer at 3485.13: Step 2.20 Done: Printer, 25 sent person file to Tablet1, 30
+u: Printer at 3485.13: Step 2.21 Done: Printer, 25 sent oppnet file to Tablet1, 30
+u: Printer at 3485.13: Step 2.22 Done: Printer, 25 sent current iteration oppnet file to Tablet1, 30
+u: Tablet1 at 3583.82: Step 2.4 Done: Tablet1, 30 received a message from a node with id 25
+u: Tablet1 at 3583.84: Step 2.5 Done: Tablet1, 30 processes the message and it is admission notification from  Printer, 25
+u: Tablet1 at 3583.84: Step 2.6: Tablet1, 30 received a message from a node with id 25
+u: Tablet1 at 3583.86: Step 2.7: Tablet1, 30 processes the message and it is the person file from Printer,25
+u: Tablet1 at 3583.86: Step 2.8a: Tablet1, 30 received a message from a node with id 25
+u: Tablet1 at 3583.88: Step 2.8ba: Tablet1, 30 processes the message and it is the oppnet file from Printer,25
+u: Tablet1 at 3583.88: Step 2.8c Done: Tablet1, 30 received a message from a node with id 25
+u: Tablet1 at 3583.9: Step 2.9 Done: Tablet1, 30 processes the message and it is the current iteration oppnet file from Printer, 25
+u: Tablet1 at 3583.9: Step 2.10: Tablet1, 30 select task Display Msg
+u: Tablet1 at 3583.9: Step 2.10: Tablet1, 30 select task Upload file to DB server
+u: Tablet1 at 3583.9: Step 2.11: Tablet1, 30 run app Display Msg
+u: Tablet1 at 3583.9: Step 2.11: Tablet1, 30 run app Upload file to DB server
+u: Tablet1 at 3583.9: Step 2.13: Tablet1, 30 I could not do urgent task,, I will forward
+u: Tablet1 at 3583.92: Step 2.13 Done: Tablet1, 30 is done scanning for helpers in range and found the following:
+u: Tablet1 at 3583.92: None
+u: Tablet1 at 3583.92: Step 2.14 Done: Tablet1 ,5 discovered forwarding services in TV, 28
+u: Tablet1 at 3583.92: Step 2.15 Done:TV, 28 is not a member of oppnet
+u: Tablet1 at 3583.92: Step 2.16 Done: Tablet1, 5 sent a request for help to TV, 28
+u: Tablet1 at 3583.92: Step 2.14 Done: Tablet1 ,5 discovered forwarding services in Tablet1, 30
+u: Tablet1 at 3583.92: Step 2.15 Done:Tablet1, 30 is not a member of oppnet
+u: Tablet1 at 3583.92: Step 2.16 Done: Tablet1, 5 sent a request for help to Tablet1, 30
+u: StreetLight at 3583.92: Step 2.14 Done: StreetLight ,26 discovered forwarding services in Tablet1, 46
+u: StreetLight at 3583.92: Step 2.15 Done:Tablet1, 46 is not a member of oppnet
+u: StreetLight at 3583.92: Step 2.16 Done: StreetLight, 26 sent a request for help to Tablet1, 46
+u: Wrist_Band at 0.0: ===========================================================
+u: Wrist_Band at 0.0: Step 1.1 Done: Wrist_Band initiated oppnet
+u: Wrist_Band at 0.0: Oppnet trans time from seed 32.18
+u: Wrist_Band at 35.54: Step 1.2 Done: Wrist_Band is done scanning for helpers in range and found the following:
+u: Wrist_Band at 35.54: Wrist_Band, 1, found TV, ID = 20
+u: Wrist_Band at 35.54: Wrist_Band, 1, found TV, ID = 24
+u: Wrist_Band at 35.54: Wrist_Band, 1, found ParkingMeter, ID = 26
+u: Wrist_Band at 35.54: Step 1.3 Done: Wrist_Band, 1 discovered forwarding services in TV, 20
+u: Wrist_Band at 35.54: Step 1.4 Done:TV, 20 is not a member of oppnet
+u: Wrist_Band at 35.54: Step 1.5 Done: Wrist_Band sent a request for help to TV, 20
+u: TV at 67.72: Step 2.1 Done: TV, 20 received a message from a node with id 1
+u: TV at 67.74: msgproctime from helper 0.02
+u: TV at 67.74: Step 2.2 Done: TV, 20 processes the message and it is a help request from Wrist_Band, 1
+u: TV at 67.74: From Helper Oppnet trans time = 32.18
+u: TV at 67.74: Step 2.3 Done: TV, 20 sent a join request to Wrist_Band, 1
+u: Wrist_Band at 99.91999999999999: Step 1.6 Done: Wrist_Band received a message from a node with id 20
+u: Wrist_Band at 135.45999999999998: Step 1.7a Done: Wrist_Band evaluated the message and source and it is a join request from TV, 20
+u: Wrist_Band at 135.45999999999998: Step 1.7b Done: Wrist_Band sent an admission notification to TV, 20
+u: Wrist_Band at 135.45999999999998: Step 1.8 Done: Wrist_Band adds TV, 20 to oppnet file
+u: Wrist_Band at 135.45999999999998: Helper Integration Time = 135.45
+u: Wrist_Band at 135.45999999999998: Step 1.3 Done: Wrist_Band, 1 discovered forwarding services in TV, 24
+u: Wrist_Band at 135.45999999999998: Step 1.4 Done:TV, 24 is not a member of oppnet
+u: Wrist_Band at 135.45999999999998: Step 1.5 Done: Wrist_Band sent a request for help to TV, 24
+u: TV at 167.64: Step 2.4 Done: TV, 20 received a message from a node with id 1
+u: TV at 167.64: Step 2.1 Done: TV, 24 received a message from a node with id 1
+u: TV at 167.66: Step 2.5 Done: TV, 20 processes the message and it is admission notification from  Wrist_Band, 1
+u: TV at 167.66: msgproctime from helper 0.02
+u: TV at 167.66: Step 2.2 Done: TV, 24 processes the message and it is a help request from Wrist_Band, 1
+u: TV at 167.66: From Helper Oppnet trans time = 32.18
+u: TV at 167.66: Step 2.3 Done: TV, 24 sent a join request to Wrist_Band, 1
+u: Wrist_Band at 199.84: Step 1.6 Done: Wrist_Band received a message from a node with id 24
+u: Wrist_Band at 235.38: Step 1.7a Done: Wrist_Band evaluated the message and source and it is a join request from TV, 24
+u: Wrist_Band at 235.38: Step 1.7b Done: Wrist_Band sent an admission notification to TV, 24
+u: Wrist_Band at 235.38: Step 1.8 Done: Wrist_Band adds TV, 24 to oppnet file
+u: Wrist_Band at 235.38: Helper Integration Time = 235.38
+u: Wrist_Band at 235.38: Step 1.3 Done: Wrist_Band, 1 discovered forwarding services in ParkingMeter, 26
+u: Wrist_Band at 235.38: Step 1.4 Done:ParkingMeter, 26 is not a member of oppnet
+u: Wrist_Band at 235.38: Step 1.5 Done: Wrist_Band sent a request for help to ParkingMeter, 26
+u: TV at 267.56: Step 2.4 Done: TV, 24 received a message from a node with id 1
+u: ParkingMeter at 267.56: Step 2.1 Done: ParkingMeter, 26 received a message from a node with id 1
+u: TV at 267.58: Step 2.5 Done: TV, 24 processes the message and it is admission notification from  Wrist_Band, 1
+u: ParkingMeter at 303.1: msgproctime from helper 35.54
+u: ParkingMeter at 303.1: Step 2.2 Done: ParkingMeter, 26 processes the message and it is a help request from Wrist_Band, 1
+u: ParkingMeter at 303.1: From Helper Oppnet trans time = 32.18
+u: ParkingMeter at 303.1: Step 2.3 Done: ParkingMeter, 26 sent a join request to Wrist_Band, 1
+u: Wrist_Band at 335.28000000000003: Step 1.6 Done: Wrist_Band received a message from a node with id 26
+u: Wrist_Band at 370.82000000000005: Step 1.7a Done: Wrist_Band evaluated the message and source and it is a join request from ParkingMeter, 26
+u: Wrist_Band at 370.82000000000005: Step 1.7b Done: Wrist_Band sent an admission notification to ParkingMeter, 26
+u: Wrist_Band at 370.82000000000005: Step 1.8 Done: Wrist_Band adds ParkingMeter, 26 to oppnet file
+u: Wrist_Band at 370.82000000000005: Helper Integration Time = 370.82
+u: Wrist_Band at 370.82000000000005: Step 1.9 Done: Wrist_Band, 1 sent person file to TV, 20
+u: Wrist_Band at 370.82000000000005: Step 1.10 Done: Wrist_Band, 1 sent oppnet file to TV, 20
+u: Wrist_Band at 370.82000000000005: Step 1.11 Done: Wrist_Band, 1 sent oppnet file to TV, 20
+u: Wrist_Band at 370.82000000000005: Step 1.9 Done: Wrist_Band, 1 sent person file to TV, 24
+u: Wrist_Band at 370.82000000000005: Step 1.10 Done: Wrist_Band, 1 sent oppnet file to TV, 24
+u: Wrist_Band at 370.82000000000005: Step 1.11 Done: Wrist_Band, 1 sent oppnet file to TV, 24
+u: Wrist_Band at 370.82000000000005: Step 1.9 Done: Wrist_Band, 1 sent person file to ParkingMeter, 26
+u: Wrist_Band at 370.82000000000005: Step 1.10 Done: Wrist_Band, 1 sent oppnet file to ParkingMeter, 26
+u: Wrist_Band at 370.82000000000005: Step 1.11 Done: Wrist_Band, 1 sent oppnet file to ParkingMeter, 26
+u: TV at 403.00000000000006: Step 2.6: TV, 24 received a message from a node with id 1
+u: ParkingMeter at 403.00000000000006: Step 2.4 Done: ParkingMeter, 26 received a message from a node with id 1
+u: TV at 403.00000000000006: Step 2.6: TV, 20 received a message from a node with id 1
+u: TV at 403.02000000000004: Step 2.7: TV, 20 processes the message and it is the person file from Wrist_Band,1
+u: TV at 403.02000000000004: Step 2.7: TV, 24 processes the message and it is the person file from Wrist_Band,1
+u: TV at 403.02000000000004: Step 2.8a: TV, 24 received a message from a node with id 1
+u: TV at 403.02000000000004: Step 2.8a: TV, 20 received a message from a node with id 1
+u: TV at 403.04: Step 2.8ba: TV, 20 processes the message and it is the oppnet file from Wrist_Band,1
+u: TV at 403.04: Step 2.8ba: TV, 24 processes the message and it is the oppnet file from Wrist_Band,1
+u: TV at 403.04: Step 2.8c Done: TV, 20 received a message from a node with id 1
+u: TV at 403.04: Step 2.8c Done: TV, 24 received a message from a node with id 1
+u: TV at 403.06: Step 2.9 Done: TV, 20 processes the message and it is the current iteration oppnet file from Wrist_Band, 1
+u: TV at 403.06: Step 2.9 Done: TV, 24 processes the message and it is the current iteration oppnet file from Wrist_Band, 1
+u: TV at 403.06: Step 2.10: TV, 20 select task Display Msg
+u: TV at 403.06: Step 2.10: TV, 24 select task Display Msg
+u: TV at 403.06: Step 2.11: TV, 20 run app Display Msg
+u: TV at 403.06: Step 2.13: TV, 20 I could not do urgent task,, I will forward
+u: TV at 403.06: Step 2.11: TV, 24 run app Display Msg
+u: TV at 403.06: Step 2.13: TV, 24 I could not do urgent task,, I will forward
+u: TV at 403.08: Step 2.13 Done: TV, 20 is done scanning for helpers in range and found the following:
+u: TV at 403.08: Step 2.13 Done: TV, 24 is done scanning for helpers in range and found the following:
+u: TV at 403.08: None
+u: TV at 403.08: TV, 24, found Tablet1, ID = 8
+u: TV at 403.08: TV, 24, found Tablet1, ID = 21
+u: TV at 403.08: Step 2.14 Done: TV ,24 discovered forwarding services in Tablet1, 8
+u: TV at 403.08: Step 2.15 Done:Tablet1, 8 is not a member of oppnet
+u: TV at 403.08: Step 2.16 Done: TV, 24 sent a request for help to Tablet1, 8
+u: Tablet1 at 435.26: Step 2.1 Done: Tablet1, 8 received a message from a node with id 24
+u: Tablet1 at 435.28: msgproctime from helper 0.02
+u: Tablet1 at 435.28: Step 2.2 Done: Tablet1, 8 processes the message and it is a help request from TV, 24
+u: Tablet1 at 435.28: From Helper Oppnet trans time = 32.18
+u: Tablet1 at 435.28: Step 2.3 Done: Tablet1, 8 sent a join request to TV, 24
+u: ParkingMeter at 438.5400000000001: Step 2.5 Done: ParkingMeter, 26 processes the message and it is admission notification from  Wrist_Band, 1
+u: ParkingMeter at 438.5400000000001: Step 2.6: ParkingMeter, 26 received a message from a node with id 1
+u: TV at 467.46: Step 2.17 Done: TV, 24 received a message from a node with id 8
+u: TV at 467.47999999999996: Step 2.18a Done: TV, 24 evaluated the message and source and it is a join request from Tablet1, 8
+u: TV at 467.47999999999996: Step 2.18b Done: TV, 24 sent an admission notification to Tablet1, 8
+u: TV at 467.47999999999996: Step 2.19a Done: TV added Tablet1, 8 to oppnet file
+u: TV at 467.47999999999996: Helper Integration Time = 467.47
+u: TV at 467.47999999999996: Step 2.19b Done: TV added Tablet1, 8 to current iterationoppnet file
+u: TV at 467.47999999999996: Helper Integration Time = 467.47
+u: TV at 467.47999999999996: Step 2.20 Done: TV, 24 sent person file to Tablet1, 8
+u: TV at 467.47999999999996: Step 2.21 Done: TV, 24 sent oppnet file to Tablet1, 8
+u: TV at 467.47999999999996: Step 2.22 Done: TV, 24 sent current iteration oppnet file to Tablet1, 8
+u: TV at 467.47999999999996: Step 2.14 Done: TV ,24 discovered forwarding services in Tablet1, 21
+u: TV at 467.47999999999996: Step 2.15 Done:Tablet1, 21 is not a member of oppnet
+u: TV at 467.47999999999996: Step 2.16 Done: TV, 24 sent a request for help to Tablet1, 21
+u: ParkingMeter at 474.0800000000001: Step 2.7: ParkingMeter, 26 processes the message and it is the person file from Wrist_Band,1
+u: ParkingMeter at 474.0800000000001: Step 2.8a: ParkingMeter, 26 received a message from a node with id 1
+u: Tablet1 at 499.65999999999997: Step 2.4 Done: Tablet1, 8 received a message from a node with id 24
+u: Tablet1 at 499.65999999999997: Step 2.1 Done: Tablet1, 21 received a message from a node with id 24
+u: Tablet1 at 499.67999999999995: Step 2.5 Done: Tablet1, 8 processes the message and it is admission notification from  TV, 24
+u: Tablet1 at 499.67999999999995: msgproctime from helper 0.02
+u: Tablet1 at 499.67999999999995: Step 2.2 Done: Tablet1, 21 processes the message and it is a help request from TV, 24
+u: Tablet1 at 499.67999999999995: Step 2.6: Tablet1, 8 received a message from a node with id 24
+u: Tablet1 at 499.67999999999995: From Helper Oppnet trans time = 32.18
+u: Tablet1 at 499.67999999999995: Step 2.3 Done: Tablet1, 21 sent a join request to TV, 24
+u: Tablet1 at 499.69999999999993: Step 2.7: Tablet1, 8 processes the message and it is the person file from TV,24
+u: Tablet1 at 499.69999999999993: Step 2.8a: Tablet1, 8 received a message from a node with id 24
+u: Tablet1 at 499.7199999999999: Step 2.8ba: Tablet1, 8 processes the message and it is the oppnet file from TV,24
+u: Tablet1 at 499.7199999999999: Step 2.8c Done: Tablet1, 8 received a message from a node with id 24
+u: Tablet1 at 499.7399999999999: Step 2.9 Done: Tablet1, 8 processes the message and it is the current iteration oppnet file from TV, 24
+u: Tablet1 at 499.7399999999999: Step 2.10: Tablet1, 8 select task Display Msg
+u: Tablet1 at 499.7399999999999: Step 2.10: Tablet1, 8 select task Upload file to DB server
+u: Tablet1 at 499.7399999999999: Step 2.11: Tablet1, 8 run app Display Msg
+u: Tablet1 at 499.7399999999999: Step 2.11: Tablet1, 8 run app Upload file to DB server
+u: Tablet1 at 499.7399999999999: Step 2.13: Tablet1, 8 I could not do urgent task,, I will forward
+u: Tablet1 at 499.7599999999999: Step 2.13 Done: Tablet1, 8 is done scanning for helpers in range and found the following:
+u: Tablet1 at 499.7599999999999: None
+u: ParkingMeter at 509.6200000000001: Step 2.8ba: ParkingMeter, 26 processes the message and it is the oppnet file from Wrist_Band,1
+u: ParkingMeter at 509.6200000000001: Step 2.8c Done: ParkingMeter, 26 received a message from a node with id 1
+u: TV at 531.8599999999999: Step 2.17 Done: TV, 24 received a message from a node with id 21
+u: TV at 531.8799999999999: Step 2.18a Done: TV, 24 evaluated the message and source and it is a join request from Tablet1, 21
+u: TV at 531.8799999999999: Step 2.18b Done: TV, 24 sent an admission notification to Tablet1, 21
+u: TV at 531.8799999999999: Step 2.19a Done: TV added Tablet1, 21 to oppnet file
+u: TV at 531.8799999999999: Helper Integration Time = 531.87
+u: TV at 531.8799999999999: Step 2.19b Done: TV added Tablet1, 21 to current iterationoppnet file
+u: TV at 531.8799999999999: Helper Integration Time = 531.87
+u: TV at 531.8799999999999: Step 2.20 Done: TV, 24 sent person file to Tablet1, 21
+u: TV at 531.8799999999999: Step 2.21 Done: TV, 24 sent oppnet file to Tablet1, 21
+u: TV at 531.8799999999999: Step 2.22 Done: TV, 24 sent current iteration oppnet file to Tablet1, 21
+u: ParkingMeter at 545.1600000000001: Step 2.9 Done: ParkingMeter, 26 processes the message and it is the current iteration oppnet file from Wrist_Band, 1
+u: ParkingMeter at 545.1600000000001: Step 2.13: ParkingMeter, 26 I could not do urgent task,, I will forward
+u: Tablet1 at 564.0599999999998: Step 2.4 Done: Tablet1, 21 received a message from a node with id 24
+u: Tablet1 at 564.0799999999998: Step 2.5 Done: Tablet1, 21 processes the message and it is admission notification from  TV, 24
+u: Tablet1 at 564.0799999999998: Step 2.6: Tablet1, 21 received a message from a node with id 24
+u: Tablet1 at 564.0999999999998: Step 2.7: Tablet1, 21 processes the message and it is the person file from TV,24
+u: Tablet1 at 564.0999999999998: Step 2.8a: Tablet1, 21 received a message from a node with id 24
+u: Tablet1 at 564.1199999999998: Step 2.8ba: Tablet1, 21 processes the message and it is the oppnet file from TV,24
+u: Tablet1 at 564.1199999999998: Step 2.8c Done: Tablet1, 21 received a message from a node with id 24
+u: Tablet1 at 564.1399999999998: Step 2.9 Done: Tablet1, 21 processes the message and it is the current iteration oppnet file from TV, 24
+u: Tablet1 at 564.1399999999998: Step 2.10: Tablet1, 21 select task Display Msg
+u: Tablet1 at 564.1399999999998: Step 2.10: Tablet1, 21 select task Upload file to DB server
+u: Tablet1 at 564.1399999999998: Step 2.11: Tablet1, 21 run app Display Msg
+u: Tablet1 at 564.1399999999998: Step 2.11: Tablet1, 21 run app Upload file to DB server
+u: Tablet1 at 564.1399999999998: Step 2.13: Tablet1, 21 I could not do urgent task,, I will forward
+u: Tablet1 at 564.1599999999997: Step 2.13 Done: Tablet1, 21 is done scanning for helpers in range and found the following:
+u: Tablet1 at 564.1599999999997: None
+u: ParkingMeter at 580.7: Step 2.13 Done: ParkingMeter, 26 is done scanning for helpers in range and found the following:
+u: ParkingMeter at 580.7: None
+u: Wrist_Band at 0.0: ===========================================================
+u: Wrist_Band at 0.0: Step 1.1 Done: Wrist_Band initiated oppnet
+u: Wrist_Band at 0.0: Oppnet trans time from seed 42.83
+u: Wrist_Band at 32.87: Step 1.2 Done: Wrist_Band is done scanning for helpers in range and found the following:
+u: Wrist_Band at 32.87: Wrist_Band, 1, found TV, ID = 14
+u: Wrist_Band at 32.87: Wrist_Band, 1, found TV, ID = 17
+u: Wrist_Band at 32.87: Wrist_Band, 1, found TV, ID = 28
+u: Wrist_Band at 32.87: Wrist_Band, 1, found ParkingMeter, ID = 42
+u: Wrist_Band at 32.87: Step 1.3 Done: Wrist_Band, 1 discovered forwarding services in TV, 14
+u: Wrist_Band at 32.87: Step 1.4 Done:TV, 14 is not a member of oppnet
+u: Wrist_Band at 32.87: Step 1.5 Done: Wrist_Band sent a request for help to TV, 14
+u: TV at 75.69999999999999: Step 2.1 Done: TV, 14 received a message from a node with id 1
+u: TV at 75.71999999999998: msgproctime from helper 0.02
+u: TV at 75.71999999999998: Step 2.2 Done: TV, 14 processes the message and it is a help request from Wrist_Band, 1
+u: TV at 75.71999999999998: From Helper Oppnet trans time = 42.83
+u: TV at 75.71999999999998: Step 2.3 Done: TV, 14 sent a join request to Wrist_Band, 1
+u: Wrist_Band at 118.54999999999998: Step 1.6 Done: Wrist_Band received a message from a node with id 14
+u: Wrist_Band at 151.42: Step 1.7a Done: Wrist_Band evaluated the message and source and it is a join request from TV, 14
+u: Wrist_Band at 151.42: Step 1.7b Done: Wrist_Band sent an admission notification to TV, 14
+u: Wrist_Band at 151.42: Step 1.8 Done: Wrist_Band adds TV, 14 to oppnet file
+u: Wrist_Band at 151.42: Helper Integration Time = 151.41
+u: Wrist_Band at 151.42: Step 1.3 Done: Wrist_Band, 1 discovered forwarding services in TV, 17
+u: Wrist_Band at 151.42: Step 1.4 Done:TV, 17 is not a member of oppnet
+u: Wrist_Band at 151.42: Step 1.5 Done: Wrist_Band sent a request for help to TV, 17
+u: TV at 194.25: Step 2.4 Done: TV, 14 received a message from a node with id 1
+u: TV at 194.25: Step 2.1 Done: TV, 17 received a message from a node with id 1
+u: TV at 194.27: Step 2.5 Done: TV, 14 processes the message and it is admission notification from  Wrist_Band, 1
+u: TV at 194.27: msgproctime from helper 0.02
+u: TV at 194.27: Step 2.2 Done: TV, 17 processes the message and it is a help request from Wrist_Band, 1
+u: TV at 194.27: From Helper Oppnet trans time = 42.83
+u: TV at 194.27: Step 2.3 Done: TV, 17 sent a join request to Wrist_Band, 1
+u: Wrist_Band at 237.10000000000002: Step 1.6 Done: Wrist_Band received a message from a node with id 17
+u: Wrist_Band at 269.97: Step 1.7a Done: Wrist_Band evaluated the message and source and it is a join request from TV, 17
+u: Wrist_Band at 269.97: Step 1.7b Done: Wrist_Band sent an admission notification to TV, 17
+u: Wrist_Band at 269.97: Step 1.8 Done: Wrist_Band adds TV, 17 to oppnet file
+u: Wrist_Band at 269.97: Helper Integration Time = 269.97
+u: Wrist_Band at 269.97: Step 1.3 Done: Wrist_Band, 1 discovered forwarding services in TV, 28
+u: Wrist_Band at 269.97: Step 1.4 Done:TV, 28 is not a member of oppnet
+u: Wrist_Band at 269.97: Step 1.5 Done: Wrist_Band sent a request for help to TV, 28
+u: TV at 312.8: Step 2.4 Done: TV, 17 received a message from a node with id 1
+u: TV at 312.8: Step 2.1 Done: TV, 28 received a message from a node with id 1
+u: TV at 312.82: Step 2.5 Done: TV, 17 processes the message and it is admission notification from  Wrist_Band, 1
+u: TV at 312.82: msgproctime from helper 0.02
+u: TV at 312.82: Step 2.2 Done: TV, 28 processes the message and it is a help request from Wrist_Band, 1
+u: TV at 312.82: From Helper Oppnet trans time = 42.83
+u: TV at 312.82: Step 2.3 Done: TV, 28 sent a join request to Wrist_Band, 1
+u: Wrist_Band at 355.65: Step 1.6 Done: Wrist_Band received a message from a node with id 28
+u: Wrist_Band at 388.52: Step 1.7a Done: Wrist_Band evaluated the message and source and it is a join request from TV, 28
+u: Wrist_Band at 388.52: Step 1.7b Done: Wrist_Band sent an admission notification to TV, 28
+u: Wrist_Band at 388.52: Step 1.8 Done: Wrist_Band adds TV, 28 to oppnet file
+u: Wrist_Band at 388.52: Helper Integration Time = 388.52
+u: Wrist_Band at 388.52: Step 1.3 Done: Wrist_Band, 1 discovered forwarding services in ParkingMeter, 42
+u: Wrist_Band at 388.52: Step 1.4 Done:ParkingMeter, 42 is not a member of oppnet
+u: Wrist_Band at 388.52: Step 1.5 Done: Wrist_Band sent a request for help to ParkingMeter, 42
+u: TV at 431.34999999999997: Step 2.4 Done: TV, 28 received a message from a node with id 1
+u: ParkingMeter at 431.34999999999997: Step 2.1 Done: ParkingMeter, 42 received a message from a node with id 1
+u: TV at 431.36999999999995: Step 2.5 Done: TV, 28 processes the message and it is admission notification from  Wrist_Band, 1
+u: ParkingMeter at 464.21999999999997: msgproctime from helper 32.87
+u: ParkingMeter at 464.21999999999997: Step 2.2 Done: ParkingMeter, 42 processes the message and it is a help request from Wrist_Band, 1
+u: ParkingMeter at 464.21999999999997: From Helper Oppnet trans time = 42.83
+u: ParkingMeter at 464.21999999999997: Step 2.3 Done: ParkingMeter, 42 sent a join request to Wrist_Band, 1
+u: Wrist_Band at 507.04999999999995: Step 1.6 Done: Wrist_Band received a message from a node with id 42
+u: Wrist_Band at 539.92: Step 1.7a Done: Wrist_Band evaluated the message and source and it is a join request from ParkingMeter, 42
+u: Wrist_Band at 539.92: Step 1.7b Done: Wrist_Band sent an admission notification to ParkingMeter, 42
+u: Wrist_Band at 539.92: Step 1.8 Done: Wrist_Band adds ParkingMeter, 42 to oppnet file
+u: Wrist_Band at 539.92: Helper Integration Time = 539.91
+u: Wrist_Band at 539.92: Step 1.9 Done: Wrist_Band, 1 sent person file to TV, 14
+u: Wrist_Band at 539.92: Step 1.10 Done: Wrist_Band, 1 sent oppnet file to TV, 14
+u: Wrist_Band at 539.92: Step 1.11 Done: Wrist_Band, 1 sent oppnet file to TV, 14
+u: Wrist_Band at 539.92: Step 1.9 Done: Wrist_Band, 1 sent person file to TV, 17
+u: Wrist_Band at 539.92: Step 1.10 Done: Wrist_Band, 1 sent oppnet file to TV, 17
+u: Wrist_Band at 539.92: Step 1.11 Done: Wrist_Band, 1 sent oppnet file to TV, 17
+u: Wrist_Band at 539.92: Step 1.9 Done: Wrist_Band, 1 sent person file to TV, 28
+u: Wrist_Band at 539.92: Step 1.10 Done: Wrist_Band, 1 sent oppnet file to TV, 28
+u: Wrist_Band at 539.92: Step 1.11 Done: Wrist_Band, 1 sent oppnet file to TV, 28
+u: Wrist_Band at 539.92: Step 1.9 Done: Wrist_Band, 1 sent person file to ParkingMeter, 42
+u: Wrist_Band at 539.92: Step 1.10 Done: Wrist_Band, 1 sent oppnet file to ParkingMeter, 42
+u: Wrist_Band at 539.92: Step 1.11 Done: Wrist_Band, 1 sent oppnet file to ParkingMeter, 42
+u: TV at 582.75: Step 2.6: TV, 17 received a message from a node with id 1
+u: TV at 582.75: Step 2.6: TV, 28 received a message from a node with id 1
+u: ParkingMeter at 582.75: Step 2.4 Done: ParkingMeter, 42 received a message from a node with id 1
+u: TV at 582.75: Step 2.6: TV, 14 received a message from a node with id 1
+u: TV at 582.77: Step 2.7: TV, 17 processes the message and it is the person file from Wrist_Band,1
+u: TV at 582.77: Step 2.7: TV, 28 processes the message and it is the person file from Wrist_Band,1
+u: TV at 582.77: Step 2.7: TV, 14 processes the message and it is the person file from Wrist_Band,1
+u: TV at 582.77: Step 2.8a: TV, 28 received a message from a node with id 1
+u: TV at 582.77: Step 2.8a: TV, 17 received a message from a node with id 1
+u: TV at 582.77: Step 2.8a: TV, 14 received a message from a node with id 1
+u: TV at 582.79: Step 2.8ba: TV, 17 processes the message and it is the oppnet file from Wrist_Band,1
+u: TV at 582.79: Step 2.8ba: TV, 28 processes the message and it is the oppnet file from Wrist_Band,1
+u: TV at 582.79: Step 2.8ba: TV, 14 processes the message and it is the oppnet file from Wrist_Band,1
+u: TV at 582.79: Step 2.8c Done: TV, 17 received a message from a node with id 1
+u: TV at 582.79: Step 2.8c Done: TV, 14 received a message from a node with id 1
+u: TV at 582.79: Step 2.8c Done: TV, 28 received a message from a node with id 1
+u: TV at 582.81: Step 2.9 Done: TV, 14 processes the message and it is the current iteration oppnet file from Wrist_Band, 1
+u: TV at 582.81: Step 2.9 Done: TV, 28 processes the message and it is the current iteration oppnet file from Wrist_Band, 1
+u: TV at 582.81: Step 2.9 Done: TV, 17 processes the message and it is the current iteration oppnet file from Wrist_Band, 1
+u: TV at 582.81: Step 2.10: TV, 28 select task Display Msg
+u: TV at 582.81: Step 2.10: TV, 17 select task Display Msg
+u: TV at 582.81: Step 2.10: TV, 14 select task Display Msg
+u: TV at 582.81: Step 2.11: TV, 28 run app Display Msg
+u: TV at 582.81: Step 2.13: TV, 28 I could not do urgent task,, I will forward
+u: TV at 582.81: Step 2.11: TV, 17 run app Display Msg
+u: TV at 582.81: Step 2.13: TV, 17 I could not do urgent task,, I will forward
+u: TV at 582.81: Step 2.11: TV, 14 run app Display Msg
+u: TV at 582.81: Step 2.13: TV, 14 I could not do urgent task,, I will forward
+u: TV at 582.8299999999999: Step 2.13 Done: TV, 14 is done scanning for helpers in range and found the following:
+u: TV at 582.8299999999999: None
+u: TV at 582.8299999999999: Step 2.13 Done: TV, 17 is done scanning for helpers in range and found the following:
+u: TV at 582.8299999999999: None
+u: TV at 582.8299999999999: Step 2.13 Done: TV, 28 is done scanning for helpers in range and found the following:
+u: TV at 582.8299999999999: TV, 28, found Tablet2, ID = 9
+u: TV at 582.8299999999999: TV, 28, found ParkingMeter, ID = 26
+u: TV at 582.8299999999999: TV, 28, found Printer, ID = 30
+u: TV at 582.8299999999999: Step 2.14 Done: TV ,28 discovered forwarding services in Tablet2, 9
+u: TV at 582.8299999999999: Step 2.15 Done:Tablet2, 9 is not a member of oppnet
+u: TV at 582.8299999999999: Step 2.16 Done: TV, 28 sent a request for help to Tablet2, 9
+u: ParkingMeter at 615.62: Step 2.5 Done: ParkingMeter, 42 processes the message and it is admission notification from  Wrist_Band, 1
+u: ParkingMeter at 615.62: Step 2.6: ParkingMeter, 42 received a message from a node with id 1
+u: Tablet2 at 625.66: Step 2.1 Done: Tablet2, 9 received a message from a node with id 28
+u: Tablet2 at 625.68: msgproctime from helper 0.02
+u: Tablet2 at 625.68: Step 2.2 Done: Tablet2, 9 processes the message and it is a help request from TV, 28
+u: Tablet2 at 625.68: From Helper Oppnet trans time = 42.83
+u: Tablet2 at 625.68: Step 2.3 Done: Tablet2, 9 sent a join request to TV, 28
+u: ParkingMeter at 648.49: Step 2.7: ParkingMeter, 42 processes the message and it is the person file from Wrist_Band,1
+u: ParkingMeter at 648.49: Step 2.8a: ParkingMeter, 42 received a message from a node with id 1
+u: TV at 668.51: Step 2.17 Done: TV, 28 received a message from a node with id 9
+u: TV at 668.53: Step 2.18a Done: TV, 28 evaluated the message and source and it is a join request from Tablet2, 9
+u: TV at 668.53: Step 2.18b Done: TV, 28 sent an admission notification to Tablet2, 9
+u: TV at 668.53: Step 2.19a Done: TV added Tablet2, 9 to oppnet file
+u: TV at 668.53: Helper Integration Time = 668.53
+u: TV at 668.53: Step 2.19b Done: TV added Tablet2, 9 to current iterationoppnet file
+u: TV at 668.53: Helper Integration Time = 668.53
+u: TV at 668.53: Step 2.20 Done: TV, 28 sent person file to Tablet2, 9
+u: TV at 668.53: Step 2.21 Done: TV, 28 sent oppnet file to Tablet2, 9
+u: TV at 668.53: Step 2.22 Done: TV, 28 sent current iteration oppnet file to Tablet2, 9
+u: TV at 668.53: Step 2.14 Done: TV ,28 discovered forwarding services in ParkingMeter, 26
+u: TV at 668.53: Step 2.15 Done:ParkingMeter, 26 is not a member of oppnet
+u: TV at 668.53: Step 2.16 Done: TV, 28 sent a request for help to ParkingMeter, 26
+u: ParkingMeter at 681.36: Step 2.8ba: ParkingMeter, 42 processes the message and it is the oppnet file from Wrist_Band,1
+u: ParkingMeter at 681.36: Step 2.8c Done: ParkingMeter, 42 received a message from a node with id 1
+u: Tablet2 at 711.36: Step 2.4 Done: Tablet2, 9 received a message from a node with id 28
+u: ParkingMeter at 711.36: Step 2.1 Done: ParkingMeter, 26 received a message from a node with id 28
+u: Tablet2 at 711.38: Step 2.5 Done: Tablet2, 9 processes the message and it is admission notification from  TV, 28
+u: Tablet2 at 711.38: Step 2.6: Tablet2, 9 received a message from a node with id 28
+u: Tablet2 at 711.4: Step 2.7: Tablet2, 9 processes the message and it is the person file from TV,28
+u: Tablet2 at 711.4: Step 2.8a: Tablet2, 9 received a message from a node with id 28
+u: Tablet2 at 711.42: Step 2.8ba: Tablet2, 9 processes the message and it is the oppnet file from TV,28
+u: Tablet2 at 711.42: Step 2.8c Done: Tablet2, 9 received a message from a node with id 28
+u: Tablet2 at 711.4399999999999: Step 2.9 Done: Tablet2, 9 processes the message and it is the current iteration oppnet file from TV, 28
+u: Tablet2 at 711.4399999999999: Step 2.10: Tablet2, 9 select task Display Msg
+u: Tablet2 at 711.4399999999999: Step 2.10: Tablet2, 9 select task Upload file to DB server
+u: Tablet2 at 711.4399999999999: Step 2.10: Tablet2, 9 select task Inform 911
+u: Tablet2 at 711.4399999999999: Step 2.11: Tablet2, 9 run app Display Msg
+u: Tablet2 at 711.4399999999999: Step 2.11: Tablet2, 9 run app Upload file to DB server
+u: Tablet2 at 711.4399999999999: Step 2.11: Tablet2, 9 run app Inform 911
+u: Tablet2 at 711.4399999999999: Step 2.12: Tablet2, 9 is done with the urgent task Inform 911
+u: Tablet2 at 711.4399999999999: Step 2.13: Tablet2, 9 I will NOT forward im done
+u: ParkingMeter at 714.23: Step 2.9 Done: ParkingMeter, 42 processes the message and it is the current iteration oppnet file from Wrist_Band, 1
+u: ParkingMeter at 714.23: Step 2.13: ParkingMeter, 42 I could not do urgent task,, I will forward
+u: ParkingMeter at 744.23: msgproctime from helper 32.87
+u: ParkingMeter at 744.23: Step 2.2 Done: ParkingMeter, 26 processes the message and it is a help request from TV, 28
+u: ParkingMeter at 744.23: From Helper Oppnet trans time = 42.83
+u: ParkingMeter at 744.23: Step 2.3 Done: ParkingMeter, 26 sent a join request to TV, 28
+u: ParkingMeter at 747.1: Step 2.13 Done: ParkingMeter, 42 is done scanning for helpers in range and found the following:
+u: ParkingMeter at 747.1: None
+u: TV at 787.0600000000001: Step 2.17 Done: TV, 28 received a message from a node with id 26
+u: TV at 787.08: Step 2.18a Done: TV, 28 evaluated the message and source and it is a join request from ParkingMeter, 26
+u: TV at 787.08: Step 2.18b Done: TV, 28 sent an admission notification to ParkingMeter, 26
+u: TV at 787.08: Step 2.19a Done: TV added ParkingMeter, 26 to oppnet file
+u: TV at 787.08: Helper Integration Time = 787.08
+u: TV at 787.08: Step 2.19b Done: TV added ParkingMeter, 26 to current iterationoppnet file
+u: TV at 787.08: Helper Integration Time = 787.08
+u: TV at 787.08: Step 2.20 Done: TV, 28 sent person file to ParkingMeter, 26
+u: TV at 787.08: Step 2.21 Done: TV, 28 sent oppnet file to ParkingMeter, 26
+u: TV at 787.08: Step 2.22 Done: TV, 28 sent current iteration oppnet file to ParkingMeter, 26
+u: TV at 787.08: Step 2.14 Done: TV ,28 discovered forwarding services in Printer, 30
+u: TV at 787.08: Step 2.15 Done:Printer, 30 is not a member of oppnet
+u: TV at 787.08: Step 2.16 Done: TV, 28 sent a request for help to Printer, 30
+u: Printer at 829.9100000000001: Step 2.1 Done: Printer, 30 received a message from a node with id 28
+u: ParkingMeter at 829.9100000000001: Step 2.4 Done: ParkingMeter, 26 received a message from a node with id 28
+u: Printer at 862.7800000000001: msgproctime from helper 32.87
+u: ParkingMeter at 862.7800000000001: Step 2.5 Done: ParkingMeter, 26 processes the message and it is admission notification from  TV, 28
+u: Printer at 862.7800000000001: Step 2.2 Done: Printer, 30 processes the message and it is a help request from TV, 28
+u: Printer at 862.7800000000001: From Helper Oppnet trans time = 42.83
+u: ParkingMeter at 862.7800000000001: Step 2.6: ParkingMeter, 26 received a message from a node with id 28
+u: Printer at 862.7800000000001: Step 2.3 Done: Printer, 30 sent a join request to TV, 28
+u: ParkingMeter at 895.6500000000001: Step 2.7: ParkingMeter, 26 processes the message and it is the person file from TV,28
+u: ParkingMeter at 895.6500000000001: Step 2.8a: ParkingMeter, 26 received a message from a node with id 28
+u: TV at 905.6100000000001: Step 2.17 Done: TV, 28 received a message from a node with id 30
+u: TV at 905.6300000000001: Step 2.18a Done: TV, 28 evaluated the message and source and it is a join request from Printer, 30
+u: TV at 905.6300000000001: Step 2.18b Done: TV, 28 sent an admission notification to Printer, 30
+u: TV at 905.6300000000001: Step 2.19a Done: TV added Printer, 30 to oppnet file
+u: TV at 905.6300000000001: Helper Integration Time = 905.63
+u: TV at 905.6300000000001: Step 2.19b Done: TV added Printer, 30 to current iterationoppnet file
+u: TV at 905.6300000000001: Helper Integration Time = 905.63
+u: TV at 905.6300000000001: Step 2.20 Done: TV, 28 sent person file to Printer, 30
+u: TV at 905.6300000000001: Step 2.21 Done: TV, 28 sent oppnet file to Printer, 30
+u: TV at 905.6300000000001: Step 2.22 Done: TV, 28 sent current iteration oppnet file to Printer, 30
+u: ParkingMeter at 928.5200000000001: Step 2.8ba: ParkingMeter, 26 processes the message and it is the oppnet file from TV,28
+u: ParkingMeter at 928.5200000000001: Step 2.8c Done: ParkingMeter, 26 received a message from a node with id 28
+u: Printer at 948.4600000000002: Step 2.4 Done: Printer, 30 received a message from a node with id 28
+u: ParkingMeter at 961.3900000000001: Step 2.9 Done: ParkingMeter, 26 processes the message and it is the current iteration oppnet file from TV, 28
+u: ParkingMeter at 961.3900000000001: Step 2.13: ParkingMeter, 26 I could not do urgent task,, I will forward
+u: Printer at 981.3300000000002: Step 2.5 Done: Printer, 30 processes the message and it is admission notification from  TV, 28
+u: Printer at 981.3300000000002: Step 2.6: Printer, 30 received a message from a node with id 28
+u: ParkingMeter at 994.2600000000001: Step 2.13 Done: ParkingMeter, 26 is done scanning for helpers in range and found the following:
+u: ParkingMeter at 994.2600000000001: ParkingMeter, 26, found Printer, ID = 12
+u: ParkingMeter at 994.2600000000001: ParkingMeter, 26, found Printer, ID = 15
+u: ParkingMeter at 994.2600000000001: ParkingMeter, 26, found TV, ID = 22
+u: ParkingMeter at 994.2600000000001: ParkingMeter, 26, found ParkingMeter, ID = 35
+u: ParkingMeter at 994.2600000000001: ParkingMeter, 26, found Printer, ID = 36
+u: ParkingMeter at 994.2600000000001: ParkingMeter, 26, found Printer, ID = 38
+u: ParkingMeter at 994.2600000000001: Step 2.14 Done: ParkingMeter ,26 discovered forwarding services in Printer, 12
+u: ParkingMeter at 994.2600000000001: Step 2.15 Done:Printer, 12 is not a member of oppnet
+u: ParkingMeter at 994.2600000000001: Step 2.16 Done: ParkingMeter, 26 sent a request for help to Printer, 12
+u: Printer at 1014.2000000000002: Step 2.7: Printer, 30 processes the message and it is the person file from TV,28
+u: Printer at 1014.2000000000002: Step 2.8a: Printer, 30 received a message from a node with id 28
+u: Printer at 1037.0900000000001: Step 2.1 Done: Printer, 12 received a message from a node with id 26
+u: Printer at 1047.0700000000002: Step 2.8ba: Printer, 30 processes the message and it is the oppnet file from TV,28
+u: Printer at 1047.0700000000002: Step 2.8c Done: Printer, 30 received a message from a node with id 28
+u: Printer at 1069.96: msgproctime from helper 32.87
+u: Printer at 1069.96: Step 2.2 Done: Printer, 12 processes the message and it is a help request from ParkingMeter, 26
+u: Printer at 1069.96: From Helper Oppnet trans time = 42.83
+u: Printer at 1069.96: Step 2.3 Done: Printer, 12 sent a join request to ParkingMeter, 26
+u: Printer at 1079.94: Step 2.9 Done: Printer, 30 processes the message and it is the current iteration oppnet file from TV, 28
+u: Printer at 1079.94: Step 2.10: Printer, 30 select task Display Msg
+u: Printer at 1079.94: Step 2.11: Printer, 30 run app Display Msg
+u: Printer at 1079.94: Step 2.13: Printer, 30 I could not do urgent task,, I will forward
+u: ParkingMeter at 1112.79: Step 2.17 Done: ParkingMeter, 26 received a message from a node with id 12
+u: Printer at 1112.81: Step 2.13 Done: Printer, 30 is done scanning for helpers in range and found the following:
+u: Printer at 1112.81: Printer, 30, found Printer, ID = 15
+u: Printer at 1112.81: Printer, 30, found TV, ID = 22
+u: Printer at 1112.81: Printer, 30, found ParkingMeter, ID = 35
+u: Printer at 1112.81: Printer, 30, found Printer, ID = 38
+u: Printer at 1112.81: Step 2.14 Done: Printer ,30 discovered forwarding services in Printer, 15
+u: Printer at 1112.81: Step 2.15 Done:Printer, 15 is not a member of oppnet
+u: Printer at 1112.81: Step 2.16 Done: Printer, 30 sent a request for help to Printer, 15
+u: ParkingMeter at 1145.6599999999999: Step 2.18a Done: ParkingMeter, 26 evaluated the message and source and it is a join request from Printer, 12
+u: ParkingMeter at 1145.6599999999999: Step 2.18b Done: ParkingMeter, 26 sent an admission notification to Printer, 12
+u: ParkingMeter at 1145.6599999999999: Step 2.19a Done: ParkingMeter added Printer, 12 to oppnet file
+u: ParkingMeter at 1145.6599999999999: Helper Integration Time = 1145.65
+u: ParkingMeter at 1145.6599999999999: Step 2.19b Done: ParkingMeter added Printer, 12 to current iterationoppnet file
+u: ParkingMeter at 1145.6599999999999: Helper Integration Time = 1145.65
+u: ParkingMeter at 1145.6599999999999: Step 2.20 Done: ParkingMeter, 26 sent person file to Printer, 12
+u: ParkingMeter at 1145.6599999999999: Step 2.21 Done: ParkingMeter, 26 sent oppnet file to Printer, 12
+u: ParkingMeter at 1145.6599999999999: Step 2.22 Done: ParkingMeter, 26 sent current iteration oppnet file to Printer, 12
+u: ParkingMeter at 1145.6599999999999: Step 2.14 Done: ParkingMeter ,26 discovered forwarding services in Printer, 15
+u: ParkingMeter at 1145.6599999999999: Step 2.15 Done:Printer, 15 is not a member of oppnet
+u: ParkingMeter at 1145.6599999999999: Step 2.16 Done: ParkingMeter, 26 sent a request for help to Printer, 15
+u: Printer at 1155.6399999999999: Step 2.1 Done: Printer, 15 received a message from a node with id 30
+u: Printer at 1188.4899999999998: Step 2.4 Done: Printer, 12 received a message from a node with id 26
+u: Printer at 1188.5099999999998: msgproctime from helper 32.87
+u: Printer at 1188.5099999999998: Step 2.2 Done: Printer, 15 processes the message and it is a help request from Printer, 30
+u: Printer at 1188.5099999999998: From Helper Oppnet trans time = 42.83
+u: Printer at 1188.5099999999998: Step 2.3 Done: Printer, 15 sent a join request to Printer, 30
+u: Printer at 1188.5099999999998: Step 2.4 Done: Printer, 15 received a message from a node with id 26
+u: Printer at 1221.3599999999997: Step 2.5 Done: Printer, 12 processes the message and it is admission notification from  ParkingMeter, 26
+u: Printer at 1221.3599999999997: Step 2.6: Printer, 12 received a message from a node with id 26
+u: Printer at 1231.3399999999997: Step 2.17 Done: Printer, 30 received a message from a node with id 15
+u: Printer at 1254.2299999999996: Step 2.7: Printer, 12 processes the message and it is the person file from ParkingMeter,26
+u: Printer at 1254.2299999999996: Step 2.8a: Printer, 12 received a message from a node with id 26
+u: Printer at 1264.2099999999996: Step 2.18a Done: Printer, 30 evaluated the message and source and it is a join request from Printer, 15
+u: Printer at 1264.2099999999996: Step 2.18b Done: Printer, 30 sent an admission notification to Printer, 15
+u: Printer at 1264.2099999999996: Step 2.19a Done: Printer added Printer, 15 to oppnet file
+u: Printer at 1264.2099999999996: Helper Integration Time = 1264.2
+u: Printer at 1264.2099999999996: Step 2.19b Done: Printer added Printer, 15 to current iterationoppnet file
+u: Printer at 1264.2099999999996: Helper Integration Time = 1264.2
+u: Printer at 1264.2099999999996: Step 2.20 Done: Printer, 30 sent person file to Printer, 15
+u: Printer at 1264.2099999999996: Step 2.21 Done: Printer, 30 sent oppnet file to Printer, 15
+u: Printer at 1264.2099999999996: Step 2.22 Done: Printer, 30 sent current iteration oppnet file to Printer, 15
+u: Printer at 1264.2099999999996: Step 2.14 Done: Printer ,30 discovered forwarding services in TV, 22
+u: Printer at 1264.2099999999996: Step 2.15 Done:TV, 22 is not a member of oppnet
+u: Printer at 1264.2099999999996: Step 2.16 Done: Printer, 30 sent a request for help to TV, 22
+u: Printer at 1287.0999999999995: Step 2.8ba: Printer, 12 processes the message and it is the oppnet file from ParkingMeter,26
+u: Printer at 1287.0999999999995: Step 2.8c Done: Printer, 12 received a message from a node with id 26
+u: TV at 1307.0399999999995: Step 2.1 Done: TV, 22 received a message from a node with id 30
+u: TV at 1307.0599999999995: msgproctime from helper 0.02
+u: TV at 1307.0599999999995: Step 2.2 Done: TV, 22 processes the message and it is a help request from Printer, 30
+u: TV at 1307.0599999999995: From Helper Oppnet trans time = 42.83
+u: TV at 1307.0599999999995: Step 2.3 Done: TV, 22 sent a join request to Printer, 30
+u: Printer at 1319.9699999999993: Step 2.9 Done: Printer, 12 processes the message and it is the current iteration oppnet file from ParkingMeter, 26
+u: Printer at 1319.9699999999993: Step 2.10: Printer, 12 select task Display Msg
+u: Printer at 1319.9699999999993: Step 2.11: Printer, 12 run app Display Msg
+u: Printer at 1319.9699999999993: Step 2.13: Printer, 12 I could not do urgent task,, I will forward
+u: Printer at 1349.8899999999994: Step 2.17 Done: Printer, 30 received a message from a node with id 22
+u: Printer at 1352.8399999999992: Step 2.13 Done: Printer, 12 is done scanning for helpers in range and found the following:
+u: Printer at 1352.8399999999992: Printer, 12, found ParkingMeter, ID = 35
+u: Printer at 1352.8399999999992: Printer, 12, found Printer, ID = 38
+u: Printer at 1352.8399999999992: Step 2.14 Done: Printer ,12 discovered forwarding services in ParkingMeter, 35
+u: Printer at 1352.8399999999992: Step 2.15 Done:ParkingMeter, 35 is not a member of oppnet
+u: Printer at 1352.8399999999992: Step 2.16 Done: Printer, 12 sent a request for help to ParkingMeter, 35
+u: Printer at 1382.7599999999993: Step 2.18a Done: Printer, 30 evaluated the message and source and it is a join request from TV, 22
+u: Printer at 1382.7599999999993: Step 2.18b Done: Printer, 30 sent an admission notification to TV, 22
+u: Printer at 1382.7599999999993: Step 2.19a Done: Printer added TV, 22 to oppnet file
+u: Printer at 1382.7599999999993: Helper Integration Time = 1382.75
+u: Printer at 1382.7599999999993: Step 2.19b Done: Printer added TV, 22 to current iterationoppnet file
+u: Printer at 1382.7599999999993: Helper Integration Time = 1382.75
+u: Printer at 1382.7599999999993: Step 2.20 Done: Printer, 30 sent person file to TV, 22
+u: Printer at 1382.7599999999993: Step 2.21 Done: Printer, 30 sent oppnet file to TV, 22
+u: Printer at 1382.7599999999993: Step 2.22 Done: Printer, 30 sent current iteration oppnet file to TV, 22
+u: Printer at 1382.7599999999993: Step 2.14 Done: Printer ,30 discovered forwarding services in ParkingMeter, 35
+u: Printer at 1382.7599999999993: Step 2.15 Done:ParkingMeter, 35 is not a member of oppnet
+u: Printer at 1382.7599999999993: Step 2.16 Done: Printer, 30 sent a request for help to ParkingMeter, 35
+u: ParkingMeter at 1395.6699999999992: Step 2.1 Done: ParkingMeter, 35 received a message from a node with id 12
+u: TV at 1425.5899999999992: Step 2.4 Done: TV, 22 received a message from a node with id 30
+u: TV at 1425.6099999999992: Step 2.5 Done: TV, 22 processes the message and it is admission notification from  Printer, 30
+u: TV at 1425.6099999999992: Step 2.6: TV, 22 received a message from a node with id 30
+u: TV at 1425.6299999999992: Step 2.7: TV, 22 processes the message and it is the person file from Printer,30
+u: TV at 1425.6299999999992: Step 2.8a: TV, 22 received a message from a node with id 30
+u: TV at 1425.6499999999992: Step 2.8ba: TV, 22 processes the message and it is the oppnet file from Printer,30
+u: TV at 1425.6499999999992: Step 2.8c Done: TV, 22 received a message from a node with id 30
+u: TV at 1425.6699999999992: Step 2.9 Done: TV, 22 processes the message and it is the current iteration oppnet file from Printer, 30
+u: TV at 1425.6699999999992: Step 2.10: TV, 22 select task Display Msg
+u: TV at 1425.6699999999992: Step 2.11: TV, 22 run app Display Msg
+u: TV at 1425.6699999999992: Step 2.13: TV, 22 I could not do urgent task,, I will forward
+u: TV at 1425.6899999999991: Step 2.13 Done: TV, 22 is done scanning for helpers in range and found the following:
+u: TV at 1425.6899999999991: TV, 22, found Printer, ID = 38
+u: TV at 1425.6899999999991: Step 2.14 Done: TV ,22 discovered forwarding services in Printer, 38
+u: TV at 1425.6899999999991: Step 2.15 Done:Printer, 38 is not a member of oppnet
+u: TV at 1425.6899999999991: Step 2.16 Done: TV, 22 sent a request for help to Printer, 38
+u: ParkingMeter at 1428.539999999999: msgproctime from helper 32.87
+u: ParkingMeter at 1428.539999999999: Step 2.2 Done: ParkingMeter, 35 processes the message and it is a help request from Printer, 12
+u: ParkingMeter at 1428.539999999999: From Helper Oppnet trans time = 42.83
+u: ParkingMeter at 1428.539999999999: Step 2.3 Done: ParkingMeter, 35 sent a join request to Printer, 12
+u: ParkingMeter at 1428.539999999999: Step 2.4 Done: ParkingMeter, 35 received a message from a node with id 30
+u: Printer at 1468.519999999999: Step 2.1 Done: Printer, 38 received a message from a node with id 22
+u: Printer at 1471.369999999999: Step 2.17 Done: Printer, 12 received a message from a node with id 35
+u: Printer at 1501.389999999999: msgproctime from helper 32.87
+u: Printer at 1501.389999999999: Step 2.2 Done: Printer, 38 processes the message and it is a help request from TV, 22
+u: Printer at 1501.389999999999: From Helper Oppnet trans time = 42.83
+u: Printer at 1501.389999999999: Step 2.3 Done: Printer, 38 sent a join request to TV, 22
+u: Printer at 1504.2399999999989: Step 2.18a Done: Printer, 12 evaluated the message and source and it is a join request from ParkingMeter, 35
+u: Printer at 1504.2399999999989: Step 2.18b Done: Printer, 12 sent an admission notification to ParkingMeter, 35
+u: Printer at 1504.2399999999989: Step 2.19a Done: Printer added ParkingMeter, 35 to oppnet file
+u: Printer at 1504.2399999999989: Helper Integration Time = 1504.23
+u: Printer at 1504.2399999999989: Step 2.19b Done: Printer added ParkingMeter, 35 to current iterationoppnet file
+u: Printer at 1504.2399999999989: Helper Integration Time = 1504.23
+u: Printer at 1504.2399999999989: Step 2.20 Done: Printer, 12 sent person file to ParkingMeter, 35
+u: Printer at 1504.2399999999989: Step 2.21 Done: Printer, 12 sent oppnet file to ParkingMeter, 35
+u: Printer at 1504.2399999999989: Step 2.22 Done: Printer, 12 sent current iteration oppnet file to ParkingMeter, 35
+u: Printer at 1504.2399999999989: Step 2.14 Done: Printer ,12 discovered forwarding services in Printer, 38
+u: Printer at 1504.2399999999989: Step 2.15 Done:Printer, 38 is not a member of oppnet
+u: Printer at 1504.2399999999989: Step 2.16 Done: Printer, 12 sent a request for help to Printer, 38
+u: TV at 1544.219999999999: Step 2.17 Done: TV, 22 received a message from a node with id 38
+u: TV at 1544.2399999999989: Step 2.18a Done: TV, 22 evaluated the message and source and it is a join request from Printer, 38
+u: TV at 1544.2399999999989: Step 2.18b Done: TV, 22 sent an admission notification to Printer, 38
+u: TV at 1544.2399999999989: Step 2.19a Done: TV added Printer, 38 to oppnet file
+u: TV at 1544.2399999999989: Helper Integration Time = 1544.23
+u: TV at 1544.2399999999989: Step 2.19b Done: TV added Printer, 38 to current iterationoppnet file
+u: TV at 1544.2399999999989: Helper Integration Time = 1544.23
+u: TV at 1544.2399999999989: Step 2.20 Done: TV, 22 sent person file to Printer, 38
+u: TV at 1544.2399999999989: Step 2.21 Done: TV, 22 sent oppnet file to Printer, 38
+u: TV at 1544.2399999999989: Step 2.22 Done: TV, 22 sent current iteration oppnet file to Printer, 38
+u: Printer at 1547.0699999999988: Step 2.4 Done: Printer, 38 received a message from a node with id 12
+u: ParkingMeter at 1587.0699999999988: Step 2.14 Done: ParkingMeter ,26 discovered forwarding services in TV, 22
+u: ParkingMeter at 1587.0699999999988: Step 2.15 Done:TV, 22 is not a member of oppnet
+u: ParkingMeter at 1587.0699999999988: Step 2.16 Done: ParkingMeter, 26 sent a request for help to TV, 22
+u: Printer at 1587.0699999999988: Step 2.14 Done: Printer ,30 discovered forwarding services in Printer, 38
+u: Printer at 1587.0699999999988: Step 2.15 Done:Printer, 38 is not a member of oppnet
+u: ParkingMeter at 1587.0699999999988: Step 2.14 Done: ParkingMeter ,26 discovered forwarding services in ParkingMeter, 35
+u: Printer at 1587.0699999999988: Step 2.16 Done: Printer, 30 sent a request for help to Printer, 38
+u: ParkingMeter at 1587.0699999999988: Step 2.15 Done:ParkingMeter, 35 is not a member of oppnet
+u: ParkingMeter at 1587.0699999999988: Step 2.16 Done: ParkingMeter, 26 sent a request for help to ParkingMeter, 35
+u: ParkingMeter at 1587.0699999999988: Step 2.14 Done: ParkingMeter ,26 discovered forwarding services in Printer, 36
+u: ParkingMeter at 1587.0699999999988: Step 2.15 Done:Printer, 36 is not a member of oppnet
+u: ParkingMeter at 1587.0699999999988: Step 2.16 Done: ParkingMeter, 26 sent a request for help to Printer, 36
+u: ParkingMeter at 1587.0699999999988: Step 2.14 Done: ParkingMeter ,26 discovered forwarding services in Printer, 38
+u: ParkingMeter at 1587.0699999999988: Step 2.15 Done:Printer, 38 is not a member of oppnet
+u: ParkingMeter at 1587.0699999999988: Step 2.16 Done: ParkingMeter, 26 sent a request for help to Printer, 38
